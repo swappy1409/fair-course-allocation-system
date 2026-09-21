@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preference-Based Course Registration — Prototype</title>
+<style>
+  :root {
+    --navy: #0a2540;
+    --navy-light: #123a5e;
+    --accent: #d99a2b;
+    --accent-dark: #b8811f;
+    --bg: #f4f6f9;
+    --card: #ffffff;
+    --border: #dbe2ea;
+    --text: #1c2b3a;
+    --muted: #5c6b7a;
+    --good: #1f8a4c;
+    --bad: #b3261e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    background: var(--navy);
+    color: #fff;
+    padding: 22px 32px;
+  }
+  header h1 { margin: 0 0 4px 0; font-size: 22px; }
+  header p { margin: 0; color: #b9c7d6; font-size: 14px; }
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .panel {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 22px;
+  }
+  .panel h2 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+    color: var(--navy);
+  }
+  .panel .sub { color: var(--muted); font-size: 13px; margin: 0 0 14px 0; }
+  .examples { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+  .examples button {
+    background: #eef2f7;
+    border: 1px solid var(--border);
+    color: var(--navy);
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .examples button:hover { background: #e0e7ef; }
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 10px;
+  }
+  .course-item {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    background: #fbfcfd;
+  }
+  .course-item input { margin-top: 3px; }
+  .course-item label { font-size: 13px; cursor: pointer; }
+  .course-item .code { font-weight: 600; color: var(--navy); }
+  .course-item .meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .badge {
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+  .badge.core { background: #fde9c8; color: #8a5a06; }
+  .badge.elective { background: #dbeee1; color: #1f6b3c; }
+  .pin-row { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin-top: 4px; }
+  select {
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    font-size: 13px;
+    min-width: 200px;
+  }
+  .actions { margin-top: 18px; display: flex; gap: 12px; align-items: center; }
+  .btn-primary {
+    background: var(--navy);
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .btn-primary:hover { background: var(--navy-light); }
+  .error-box {
+    background: #fdecea;
+    border: 1px solid #f3b6b0;
+    color: var(--bad);
+    padding: 12px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-top: 14px;
+    display: none;
+  }
+  .error-box.show { display: block; }
+  .error-box strong { display: block; margin-bottom: 4px; }
+  #results-panel { display: none; }
+  #results-panel.show { display: block; }
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .summary-row .count { font-size: 14px; color: var(--muted); }
+  .pattern-filters { display: flex; gap: 8px; flex-wrap: wrap; }
+  .pattern-filters button {
+    border: 1px solid var(--border);
+    background: #fff;
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-size: 12.5px;
+    cursor: pointer;
+    color: var(--navy);
+  }
+  .pattern-filters button.active {
+    background: var(--accent);
+    border-color: var(--accent-dark);
+    color: #fff;
+  }
+  .combo-list { display: flex; flex-direction: column; gap: 10px; max-height: 560px; overflow-y: auto; }
+  .combo-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    background: #fbfcfd;
+  }
+  .combo-card .combo-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .combo-head .idx { color: var(--muted); font-size: 12px; }
+  .pattern-tag {
+    font-size: 11px;
+    padding: 2px 9px;
+    border-radius: 12px;
+    font-weight: 600;
+  }
+  .pattern-tag.Morning-heavy { background: #fff3d6; color: #8a5a06; }
+  .pattern-tag.Evening-heavy { background: #e2e6fb; color: #2f3a8a; }
+  .pattern-tag.Compact { background: #dbeee1; color: #1f6b3c; }
+  .pattern-tag.Mixed { background: #eee; color: #555; }
+  .slot-table { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 4px 12px; }
+  .slot-table div { font-size: 12.5px; }
+  .slot-table .c { color: var(--muted); }
+  .more-note { text-align: center; color: var(--muted); font-size: 12.5px; padding: 8px; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; padding: 20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Preference-Based Course Registration — Prototype</h1>
+  <p>Rank by pattern instead of racing the clock: pick courses, generate every conflict-free timetable, sort by shape.</p>
+</header>
+
+<main>
+  <div class="panel">
+    <h2>1. Load an example</h2>
+    <p class="sub">Pre-filled scenarios so nothing needs to be clicked live during the demo.</p>
+    <div class="examples">
+      <button id="ex1">Load example: Balanced mix</button>
+      <button id="ex2">Load example: Pinned &amp; tricky</button>
+      <button id="ex3">Load example: Impossible combo (zero results)</button>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>2. Pick 5–7 courses</h2>
+    <p class="sub">Core courses cluster around the D1/D2/E1/E2 slot block, just like real registration data.</p>
+    <div class="course-grid" id="course-grid"></div>
+
+    <h2 style="margin-top:20px;">3. Pin a course to a slot (optional)</h2>
+    <p class="sub">Forces that course into the chosen slot before combinations are generated.</p>
+    <div class="pin-row">
+      <select id="pin-course"><option value="">No pin</option></select>
+      <select id="pin-slot"><option value="">—</option></select>
+    </div>
+
+    <div class="actions">
+      <button class="btn-primary" id="generate-btn">Generate timetables</button>
+    </div>
+    <div class="error-box" id="error-box"></div>
+  </div>
+
+  <div class="panel" id="results-panel">
+    <h2>4. Valid combinations</h2>
+    <div class="summary-row">
+      <div class="count" id="result-count"></div>
+      <div class="pattern-filters" id="pattern-filters"></div>
+    </div>
+    <div class="combo-list" id="combo-list"></div>
+  </div>
+</main>
+
+<footer>Prototype for lab demo · mock data only · no backend</footer>
+
+<script>
+// ---------------- Data ----------------
+const COURSES = [
+  { code: 'CSE2001', name: 'Data Structures and Algorithms', credits: 4, type: 'core', options: ['D1', 'D1+TD1'] },
+  { code: 'CSE2008', name: 'Operating Systems', credits: 4, type: 'core', options: ['D2', 'E1'] },
+  { code: 'CSE3003', name: 'Computer Networks', credits: 4, type: 'core', options: ['E1', 'E2'] },
+  { code: 'CSE3004', name: 'Design and Analysis of Algorithms', credits: 4, type: 'core', options: ['D1', 'D1+TD1'] },
+  { code: 'CSE2003', name: 'Object Oriented Programming', credits: 3, type: 'core', options: ['B1', 'F1'] },
+  { code: 'CSE1004', name: 'Database Systems', credits: 4, type: 'core', options: ['C1', 'D2'] },
+  { code: 'CSE3005', name: 'Artificial Intelligence', credits: 3, type: 'elective', options: ['A1', 'F2', 'G1'] },
+  { code: 'CSE4003', name: 'Machine Learning', credits: 3, type: 'elective', options: ['B2', 'G2'] },
+  { code: 'CSE3999', name: 'Cloud Computing', credits: 3, type: 'elective', options: ['C2', 'A2'] },
+  { code: 'CSE4012', name: 'Cyber Security', credits: 3, type: 'elective', options: ['F1', 'G1', 'A2'] },
+  { code: 'MGT1022', name: 'Professional Ethics', credits: 2, type: 'elective', options: ['TC1', 'TB1'] },
+  { code: 'GEN1001', name: 'Environmental Science', credits: 1, type: 'elective', options: ['TA1', 'TA2', 'TD1'] },
+];
+
+const EXAMPLES = {
+  ex1: { selected: ['CSE2008', 'CSE3003', 'CSE2003', 'CSE3005', 'MGT1022', 'GEN1001'], pin: null },
+  ex2: { selected: ['CSE2001', 'CSE2008', 'CSE1004', 'CSE2003', 'CSE4003'], pin: { courseCode: 'CSE2001', slot: 'D1' } },
+  ex3: { selected: ['CSE2001', 'CSE3004', 'CSE3005', 'CSE4003', 'MGT1022'], pin: null },
+};
+
+// ---------------- Core scheduling logic ----------------
+function atoms(slot) { return slot.split('+'); }
+
+function slotsConflict(slotA, slotB) {
+  const a = atoms(slotA), b = atoms(slotB);
+  return a.some(x => b.includes(x));
+}
+
+const DAYS_BY_LETTER = { A: ['Mon', 'Wed'], B: ['Tue', 'Thu'], C: ['Wed', 'Fri'], D: ['Mon', 'Thu'], E: ['Tue', 'Fri'], F: ['Mon', 'Fri'], G: ['Wed', 'Thu'] };
+
+function periodOf(atom) { return atom.endsWith('2') ? 'evening' : 'morning'; }
+
+function daysOf(atom) {
+  const isTutorial = atom.startsWith('T');
+  const series = atom.slice(-1);
+  if (isTutorial) return [series === '1' ? 'Fri' : 'Sat'];
+  const pair = DAYS_BY_LETTER[atom[0]];
+  return [series === '1' ? pair[0] : pair[1]];
+}
+
+function classifyPattern(assignedSlots) {
+  const allAtoms = assignedSlots.flatMap(atoms);
+  const morning = allAtoms.filter(a => periodOf(a) === 'morning').length;
+  const evening = allAtoms.filter(a => periodOf(a) === 'evening').length;
+  const total = allAtoms.length;
+  const distinctDays = new Set(allAtoms.flatMap(daysOf)).size;
+  if (morning / total >= 0.65) return 'Morning-heavy';
+  if (evening / total >= 0.65) return 'Evening-heavy';
+  if (distinctDays <= 3) return 'Compact';
+  return 'Mixed';
+}
+
+function optionsFor(course, pin) {
+  if (pin && pin.courseCode === course.code) return [pin.slot];
+  return course.options;
+}
+
+function generateCombinations(selectedCourses, pin) {
+  const results = [];
+  function backtrack(i, chosen, usedAtoms) {
+    if (i === selectedCourses.length) { results.push(chosen.slice()); return; }
+    const course = selectedCourses[i];
+    for (const option of optionsFor(course, pin)) {
+      const optAtoms = atoms(option);
+      if (optAtoms.some(a => usedAtoms.has(a))) continue;
+      optAtoms.forEach(a => usedAtoms.add(a));
+      chosen.push({ course: course.code, name: course.name, slot: option });
+      backtrack(i + 1, chosen, usedAtoms);
+      chosen.pop();
+      optAtoms.forEach(a => usedAtoms.delete(a));
+    }
+  }
+  backtrack(0, [], new Set());
+  return results.map((combo, idx) => ({ idx, combo, pattern: classifyPattern(combo.map(c => c.slot)) }));
+}
+
+function findHardConflict(selectedCourses, pin) {
+  for (let i = 0; i < selectedCourses.length; i++) {
+    for (let j = i + 1; j < selectedCourses.length; j++) {
+      const a = selectedCourses[i], b = selectedCourses[j];
+      const aOpts = optionsFor(a, pin), bOpts = optionsFor(b, pin);
+      const allClash = aOpts.every(oa => bOpts.every(ob => slotsConflict(oa, ob)));
+      if (allClash) return { courseA: a, courseB: b, slotsA: aOpts, slotsB: bOpts };
+    }
+  }
+  return null;
+}
+
+// ---------------- UI wiring ----------------
+const courseGrid = document.getElementById('course-grid');
+const pinCourseSel = document.getElementById('pin-course');
+const pinSlotSel = document.getElementById('pin-slot');
+const errorBox = document.getElementById('error-box');
+const resultsPanel = document.getElementById('results-panel');
+const resultCount = document.getElementById('result-count');
+const patternFilters = document.getElementById('pattern-filters');
+const comboList = document.getElementById('combo-list');
+
+let lastResults = [];
+let activeFilter = 'All';
+
+COURSES.forEach(c => {
+  const item = document.createElement('div');
+  item.className = 'course-item';
+  item.innerHTML = `
+    <input type="checkbox" id="chk-${c.code}" value="${c.code}">
+    <label for="chk-${c.code}">
+      <span class="code">${c.code}</span>
+      <span class="badge ${c.type}">${c.type}</span>
+      <div>${c.name} · ${c.credits} cr</div>
+      <div class="meta">slots: ${c.options.join(', ')}</div>
+    </label>`;
+  courseGrid.appendChild(item);
+});
+
+COURSES.forEach(c => {
+  const opt = document.createElement('option');
+  opt.value = c.code;
+  opt.textContent = `${c.code} — ${c.name}`;
+  pinCourseSel.appendChild(opt);
+});
+
+pinCourseSel.addEventListener('change', () => {
+  pinSlotSel.innerHTML = '<option value="">—</option>';
+  const course = COURSES.find(c => c.code === pinCourseSel.value);
+  if (course) {
+    course.options.forEach(o => {
+      const opt = document.createElement('option');
+      opt.value = o; opt.textContent = o;
+      pinSlotSel.appendChild(opt);
+    });
+  }
+});
+
+function setSelectedCourses(codes) {
+  COURSES.forEach(c => { document.getElementById(`chk-${c.code}`).checked = codes.includes(c.code); });
+}
+
+function setPin(pin) {
+  pinCourseSel.value = pin ? pin.courseCode : '';
+  pinCourseSel.dispatchEvent(new Event('change'));
+  pinSlotSel.value = pin ? pin.slot : '';
+}
+
+document.getElementById('ex1').addEventListener('click', () => { const e = EXAMPLES.ex1; setSelectedCourses(e.selected); setPin(e.pin); hideError(); });
+document.getElementById('ex2').addEventListener('click', () => { const e = EXAMPLES.ex2; setSelectedCourses(e.selected); setPin(e.pin); hideError(); });
+document.getElementById('ex3').addEventListener('click', () => { const e = EXAMPLES.ex3; setSelectedCourses(e.selected); setPin(e.pin); hideError(); });
+
+function hideError() { errorBox.classList.remove('show'); resultsPanel.classList.remove('show'); }
+function showError(html) {
+  errorBox.innerHTML = html;
+  errorBox.classList.add('show');
+  resultsPanel.classList.remove('show');
+}
+
+document.getElementById('generate-btn').addEventListener('click', () => {
+  hideError();
+  const selectedCodes = COURSES.filter(c => document.getElementById(`chk-${c.code}`).checked).map(c => c.code);
+
+  if (selectedCodes.length < 5 || selectedCodes.length > 7) {
+    showError(`<strong>Pick between 5 and 7 courses</strong>You currently have ${selectedCodes.length} selected.`);
+    return;
+  }
+
+  let pin = null;
+  if (pinCourseSel.value) {
+    if (!selectedCodes.includes(pinCourseSel.value)) {
+      showError(`<strong>Pin refers to a course you haven't selected</strong>${pinCourseSel.value} is pinned but not checked in the course list above.`);
+      return;
+    }
+    if (!pinSlotSel.value) {
+      showError(`<strong>Choose a slot for the pinned course</strong>Select a slot in the second dropdown, or clear the pin.`);
+      return;
+    }
+    const pinnedCourse = COURSES.find(c => c.code === pinCourseSel.value);
+    if (!pinnedCourse.options.includes(pinSlotSel.value)) {
+      showError(`<strong>Invalid pin</strong>${pinnedCourse.code} is not actually offered in ${pinSlotSel.value}. Valid slots: ${pinnedCourse.options.join(', ')}.`);
+      return;
+    }
+    pin = { courseCode: pinCourseSel.value, slot: pinSlotSel.value };
+  }
+
+  const selectedCourses = COURSES.filter(c => selectedCodes.includes(c.code));
+  const results = generateCombinations(selectedCourses, pin);
+
+  if (results.length === 0) {
+    const conflict = findHardConflict(selectedCourses, pin);
+    if (conflict) {
+      showError(`<strong>No valid timetable — direct conflict found</strong>
+        ${conflict.courseA.code} (${conflict.courseA.name}) and ${conflict.courseB.code} (${conflict.courseB.name})
+        can never be scheduled together: every slot option for one clashes with every slot option for the other
+        (${conflict.courseA.code}: ${conflict.slotsA.join(', ')} vs ${conflict.courseB.code}: ${conflict.slotsB.join(', ')}).
+        Drop one of these two courses, or change the pin, and try again.`);
+    } else {
+      showError(`<strong>No valid timetable</strong>
+        No combination of ${selectedCourses.map(c => c.code).join(', ')} avoids a clash across the whole set,
+        even though no single pair is fully blocked. Try removing one course and regenerating.`);
+    }
+    return;
+  }
+
+  lastResults = results;
+  activeFilter = 'All';
+  renderResults();
+});
+
+function renderResults() {
+  resultsPanel.classList.add('show');
+  const counts = { All: lastResults.length };
+  ['Morning-heavy', 'Evening-heavy', 'Compact', 'Mixed'].forEach(p => {
+    counts[p] = lastResults.filter(r => r.pattern === p).length;
+  });
+
+  patternFilters.innerHTML = '';
+  Object.keys(counts).forEach(p => {
+    if (p !== 'All' && counts[p] === 0) return;
+    const btn = document.createElement('button');
+    btn.textContent = `${p} (${counts[p]})`;
+    if (p === activeFilter) btn.classList.add('active');
+    btn.addEventListener('click', () => { activeFilter = p; renderResults(); });
+    patternFilters.appendChild(btn);
+  });
+
+  const shown = activeFilter === 'All' ? lastResults : lastResults.filter(r => r.pattern === activeFilter);
+  resultCount.textContent = `${shown.length} of ${lastResults.length} valid combination(s) shown, sorted by pattern then generation order`;
+
+  const sorted = shown.slice().sort((a, b) => {
+    if (a.pattern !== b.pattern) return a.pattern.localeCompare(b.pattern);
+    return a.idx - b.idx;
+  });
+
+  const capped = sorted.slice(0, 50);
+  comboList.innerHTML = '';
+  capped.forEach(r => {
+    const card = document.createElement('div');
+    card.className = 'combo-card';
+    card.innerHTML = `
+      <div class="combo-head">
+        <span class="idx">Combination #${r.idx + 1}</span>
+        <span class="pattern-tag ${r.pattern}">${r.pattern}</span>
+      </div>
+      <div class="slot-table">
+        ${r.combo.map(c => `<div><span class="c">${c.course}</span> → ${c.slot}</div>`).join('')}
+      </div>`;
+    comboList.appendChild(card);
+  });
+  if (sorted.length > capped.length) {
+    const note = document.createElement('div');
+    note.className = 'more-note';
+    note.textContent = `+ ${sorted.length - capped.length} more not shown — narrow by pattern to see fewer at once.`;
+    comboList.appendChild(note);
+  }
+}
+</script>
+</body>
+</html>
