@@ -1,0 +1,9111 @@
+{
+ "days": [
+  "TUE",
+  "WED",
+  "THU",
+  "FRI",
+  "SAT"
+ ],
+ "slots": {
+  "A1": [
+   [
+    "TUE",
+    540,
+    590
+   ],
+   [
+    "SAT",
+    720,
+    770
+   ]
+  ],
+  "A2": [
+   [
+    "TUE",
+    900,
+    950
+   ],
+   [
+    "THU",
+    1020,
+    1070
+   ]
+  ],
+  "B1": [
+   [
+    "TUE",
+    600,
+    650
+   ],
+   [
+    "WED",
+    720,
+    770
+   ]
+  ],
+  "B2": [
+   [
+    "TUE",
+    960,
+    1010
+   ],
+   [
+    "WED",
+    1020,
+    1070
+   ]
+  ],
+  "C1": [
+   [
+    "THU",
+    540,
+    590
+   ],
+   [
+    "SAT",
+    600,
+    650
+   ]
+  ],
+  "C2": [
+   [
+    "THU",
+    900,
+    950
+   ],
+   [
+    "FRI",
+    840,
+    890
+   ]
+  ],
+  "CLUB": [
+   [
+    "THU",
+    720,
+    770
+   ],
+   [
+    "SAT",
+    1020,
+    1070
+   ]
+  ],
+  "D1": [
+   [
+    "TUE",
+    720,
+    770
+   ],
+   [
+    "WED",
+    540,
+    590
+   ]
+  ],
+  "D2": [
+   [
+    "WED",
+    840,
+    890
+   ],
+   [
+    "SAT",
+    840,
+    890
+   ]
+  ],
+  "E1": [
+   [
+    "WED",
+    660,
+    710
+   ],
+   [
+    "SAT",
+    540,
+    590
+   ]
+  ],
+  "E2": [
+   [
+    "WED",
+    960,
+    1010
+   ],
+   [
+    "SAT",
+    900,
+    950
+   ]
+  ],
+  "ECS": [
+   [
+    "THU",
+    660,
+    710
+   ],
+   [
+    "SAT",
+    960,
+    1010
+   ]
+  ],
+  "F1": [
+   [
+    "WED",
+    600,
+    650
+   ],
+   [
+    "FRI",
+    660,
+    710
+   ]
+  ],
+  "F2": [
+   [
+    "TUE",
+    840,
+    890
+   ],
+   [
+    "FRI",
+    1020,
+    1070
+   ]
+  ],
+  "G1": [
+   [
+    "TUE",
+    660,
+    710
+   ],
+   [
+    "SAT",
+    660,
+    710
+   ]
+  ],
+  "G2": [
+   [
+    "TUE",
+    1020,
+    1070
+   ],
+   [
+    "WED",
+    900,
+    950
+   ]
+  ],
+  "L1": [
+   [
+    "TUE",
+    480,
+    530
+   ]
+  ],
+  "L10": [
+   [
+    "WED",
+    640,
+    690
+   ]
+  ],
+  "L11": [
+   [
+    "WED",
+    700,
+    750
+   ]
+  ],
+  "L12": [
+   [
+    "WED",
+    750,
+    790
+   ]
+  ],
+  "L13": [
+   [
+    "THU",
+    480,
+    530
+   ]
+  ],
+  "L14": [
+   [
+    "THU",
+    530,
+    580
+   ]
+  ],
+  "L15": [
+   [
+    "THU",
+    590,
+    640
+   ]
+  ],
+  "L16": [
+   [
+    "THU",
+    640,
+    690
+   ]
+  ],
+  "L17": [
+   [
+    "THU",
+    700,
+    750
+   ]
+  ],
+  "L18": [
+   [
+    "THU",
+    750,
+    790
+   ]
+  ],
+  "L19": [
+   [
+    "FRI",
+    480,
+    530
+   ]
+  ],
+  "L2": [
+   [
+    "TUE",
+    530,
+    580
+   ]
+  ],
+  "L20": [
+   [
+    "FRI",
+    530,
+    580
+   ]
+  ],
+  "L21": [
+   [
+    "FRI",
+    590,
+    640
+   ]
+  ],
+  "L22": [
+   [
+    "FRI",
+    640,
+    690
+   ]
+  ],
+  "L23": [
+   [
+    "FRI",
+    700,
+    750
+   ]
+  ],
+  "L24": [
+   [
+    "FRI",
+    750,
+    790
+   ]
+  ],
+  "L25": [
+   [
+    "SAT",
+    480,
+    530
+   ]
+  ],
+  "L26": [
+   [
+    "SAT",
+    530,
+    580
+   ]
+  ],
+  "L27": [
+   [
+    "SAT",
+    590,
+    640
+   ]
+  ],
+  "L28": [
+   [
+    "SAT",
+    640,
+    690
+   ]
+  ],
+  "L29": [
+   [
+    "SAT",
+    700,
+    750
+   ]
+  ],
+  "L3": [
+   [
+    "TUE",
+    590,
+    640
+   ]
+  ],
+  "L30": [
+   [
+    "SAT",
+    750,
+    790
+   ]
+  ],
+  "L31": [
+   [
+    "TUE",
+    840,
+    890
+   ]
+  ],
+  "L32": [
+   [
+    "TUE",
+    890,
+    940
+   ]
+  ],
+  "L33": [
+   [
+    "TUE",
+    950,
+    1000
+   ]
+  ],
+  "L34": [
+   [
+    "TUE",
+    1000,
+    1050
+   ]
+  ],
+  "L35": [
+   [
+    "TUE",
+    1060,
+    1110
+   ]
+  ],
+  "L36": [
+   [
+    "TUE",
+    1110,
+    1150
+   ]
+  ],
+  "L37": [
+   [
+    "WED",
+    840,
+    890
+   ]
+  ],
+  "L38": [
+   [
+    "WED",
+    890,
+    940
+   ]
+  ],
+  "L39": [
+   [
+    "WED",
+    950,
+    1000
+   ]
+  ],
+  "L4": [
+   [
+    "TUE",
+    640,
+    690
+   ]
+  ],
+  "L40": [
+   [
+    "WED",
+    1000,
+    1050
+   ]
+  ],
+  "L41": [
+   [
+    "WED",
+    1060,
+    1110
+   ]
+  ],
+  "L42": [
+   [
+    "WED",
+    1110,
+    1150
+   ]
+  ],
+  "L43": [
+   [
+    "THU",
+    840,
+    890
+   ]
+  ],
+  "L44": [
+   [
+    "THU",
+    890,
+    940
+   ]
+  ],
+  "L45": [
+   [
+    "THU",
+    950,
+    1000
+   ]
+  ],
+  "L46": [
+   [
+    "THU",
+    1000,
+    1050
+   ]
+  ],
+  "L47": [
+   [
+    "THU",
+    1060,
+    1110
+   ]
+  ],
+  "L48": [
+   [
+    "THU",
+    1110,
+    1150
+   ]
+  ],
+  "L49": [
+   [
+    "FRI",
+    840,
+    890
+   ]
+  ],
+  "L5": [
+   [
+    "TUE",
+    700,
+    750
+   ]
+  ],
+  "L50": [
+   [
+    "FRI",
+    890,
+    940
+   ]
+  ],
+  "L51": [
+   [
+    "FRI",
+    950,
+    1000
+   ]
+  ],
+  "L52": [
+   [
+    "FRI",
+    1000,
+    1050
+   ]
+  ],
+  "L53": [
+   [
+    "FRI",
+    1060,
+    1110
+   ]
+  ],
+  "L54": [
+   [
+    "FRI",
+    1110,
+    1150
+   ]
+  ],
+  "L55": [
+   [
+    "SAT",
+    840,
+    890
+   ]
+  ],
+  "L56": [
+   [
+    "SAT",
+    890,
+    940
+   ]
+  ],
+  "L57": [
+   [
+    "SAT",
+    950,
+    1000
+   ]
+  ],
+  "L58": [
+   [
+    "SAT",
+    1000,
+    1050
+   ]
+  ],
+  "L59": [
+   [
+    "SAT",
+    1060,
+    1110
+   ]
+  ],
+  "L6": [
+   [
+    "TUE",
+    750,
+    790
+   ]
+  ],
+  "L60": [
+   [
+    "SAT",
+    1110,
+    1150
+   ]
+  ],
+  "L7": [
+   [
+    "WED",
+    480,
+    530
+   ]
+  ],
+  "L8": [
+   [
+    "WED",
+    530,
+    580
+   ]
+  ],
+  "L9": [
+   [
+    "WED",
+    590,
+    640
+   ]
+  ],
+  "SC1": [
+   [
+    "WED",
+    960,
+    1010
+   ]
+  ],
+  "SC2": [
+   [
+    "WED",
+    660,
+    710
+   ]
+  ],
+  "SD1": [
+   [
+    "SAT",
+    900,
+    950
+   ]
+  ],
+  "SD2": [
+   [
+    "FRI",
+    720,
+    770
+   ]
+  ],
+  "SE1": [
+   [
+    "THU",
+    840,
+    890
+   ]
+  ],
+  "SE2": [
+   [
+    "SAT",
+    540,
+    590
+   ]
+  ],
+  "TA1": [
+   [
+    "FRI",
+    600,
+    650
+   ]
+  ],
+  "TA2": [
+   [
+    "FRI",
+    960,
+    1010
+   ]
+  ],
+  "TAA1": [
+   [
+    "THU",
+    660,
+    710
+   ]
+  ],
+  "TAA2": [
+   [
+    "SAT",
+    960,
+    1010
+   ]
+  ],
+  "TB1": [
+   [
+    "FRI",
+    540,
+    590
+   ]
+  ],
+  "TB2": [
+   [
+    "FRI",
+    900,
+    950
+   ]
+  ],
+  "TBB1": [
+   [
+    "THU",
+    720,
+    770
+   ]
+  ],
+  "TBB2": [
+   [
+    "SAT",
+    1020,
+    1070
+   ]
+  ],
+  "TC1": [
+   [
+    "TUE",
+    660,
+    710
+   ]
+  ],
+  "TC2": [
+   [
+    "TUE",
+    1020,
+    1070
+   ]
+  ],
+  "TCC1": [
+   [
+    "FRI",
+    480,
+    530
+   ]
+  ],
+  "TCC2": [
+   [
+    "WED",
+    1080,
+    1130
+   ]
+  ],
+  "TD1": [
+   [
+    "THU",
+    600,
+    650
+   ]
+  ],
+  "TD2": [
+   [
+    "THU",
+    960,
+    1010
+   ]
+  ],
+  "TDD1": [
+   [
+    "SAT",
+    480,
+    530
+   ]
+  ],
+  "TDD2": [
+   [
+    "TUE",
+    1080,
+    1130
+   ]
+  ],
+  "TE1": [
+   [
+    "FRI",
+    720,
+    770
+   ]
+  ],
+  "TE2": [
+   [
+    "THU",
+    840,
+    890
+   ]
+  ],
+  "TEE1": [
+   [
+    "THU",
+    480,
+    530
+   ]
+  ],
+  "TEE2": [
+   [
+    "FRI",
+    1080,
+    1130
+   ]
+  ],
+  "TF1": [
+   [
+    "SAT",
+    660,
+    710
+   ]
+  ],
+  "TF2": [
+   [
+    "WED",
+    900,
+    950
+   ]
+  ],
+  "TFF1": [
+   [
+    "TUE",
+    480,
+    530
+   ]
+  ],
+  "TFF2": [
+   [
+    "THU",
+    1080,
+    1130
+   ]
+  ],
+  "TG1": [
+   [
+    "THU",
+    600,
+    650
+   ]
+  ],
+  "TG2": [
+   [
+    "THU",
+    960,
+    1010
+   ]
+  ],
+  "TGG1": [
+   [
+    "WED",
+    480,
+    530
+   ]
+  ],
+  "TGG2": [
+   [
+    "SAT",
+    1080,
+    1130
+   ]
+  ]
+ },
+ "non_teaching": [
+  "CLUB",
+  "ECS"
+ ],
+ "no_slot": "NILL",
+ "courses": [
+  {
+   "code": "CAP4001",
+   "title": "Capstone",
+   "types": [
+    "PJT"
+   ],
+   "credits": null,
+   "credits_source": "unknown",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CHY1005",
+   "title": "Industrial Chemistry for Engineers",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CHY1006",
+   "title": "Corrosion Science and Engineering",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CHY1007",
+   "title": "Energy Materials and Their Applications",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CHY2001",
+   "title": "Chemical and Biosensors",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CHY2002",
+   "title": "Organic Electronics",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CHY4207",
+   "title": "Analytical Chemistry Lab",
+   "types": [
+    "LO"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CHY4208",
+   "title": "Analytical Chemistry",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CHY4301",
+   "title": "Interpretive Molecular Spectroscopy",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CHY4307",
+   "title": "Advanced Catalysis",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CHY4310",
+   "title": "Pericyclic Reactions and Modern Asymmetric Synthesis",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE0207",
+   "title": "Fundamentals of Database Systems",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE0208",
+   "title": "Introduction to Data Warehousing and Data Mining",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE0305",
+   "title": "Fundamentals of Natural Language Processing",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE0312",
+   "title": "Reinforcement Learning",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE0401",
+   "title": "Introduction to Python Programming",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE0402",
+   "title": "Image Processing",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE0506",
+   "title": "Social Network Data Analytics",
+   "types": [
+    "ETH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE0601",
+   "title": "Big Data Analytics using NoSQL",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE0602",
+   "title": "Deep Learning and Applications",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE1013",
+   "title": "Formal Language and Automata Theory",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE1022",
+   "title": "Introduction to Programming",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2001",
+   "title": "Data Structures and Algorithms",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2004",
+   "title": "Software Design and Architecture",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2008",
+   "title": "Operating Systems",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2009",
+   "title": "Soft Computing",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2013",
+   "title": "Information Theory and Coding",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2015",
+   "title": "Object Oriented Programming",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2016",
+   "title": "Software Engineering",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2018",
+   "title": "Database Management Systems",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2019",
+   "title": "Machine Learning",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2025",
+   "title": "AWS Solution Architecture",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2027",
+   "title": "AWS for Cloud Computing",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE2028",
+   "title": "Cloud Computing using Salesforce",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3001",
+   "title": "Agile Development Process",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3002",
+   "title": "Artificial Intelligence",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3003",
+   "title": "Computer Networks",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3004",
+   "title": "Design and Analysis of Algorithms",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3005",
+   "title": "Distributed Systems",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3006",
+   "title": "Data Visualization",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3009",
+   "title": "NoSQL Databases",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3014",
+   "title": "Software Design with UML",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3015",
+   "title": "Natural Language Processing",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3024",
+   "title": "Compiler Design",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3028",
+   "title": "Modern Web Applications",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3035",
+   "title": "Blockchain and Distributed Ledger Technology",
+   "types": [
+    "ELA"
+   ],
+   "credits": 1,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3036",
+   "title": "Cryptocurrency Technologies and Bitcoin",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3040",
+   "title": "Incident Response Management System",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE3041",
+   "title": "Malware Analysis",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4003",
+   "title": "Parallel Computing",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4005",
+   "title": "Data Warehousing and Data Mining",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4006",
+   "title": "Deep Learning",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4007",
+   "title": "Digital Image Processing",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4011",
+   "title": "Internet of Things",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4012",
+   "title": "UI UX User Experience Design",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4016",
+   "title": "Database Administration",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4020",
+   "title": "Agent Based Intelligent Systems",
+   "types": [
+    "ELA"
+   ],
+   "credits": 1,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4021",
+   "title": "Introduction to Cognitive Modelling",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4033",
+   "title": "IT Project Management",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4035",
+   "title": "Enterprise Systems",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4040",
+   "title": "Mining Massive Data Sets",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4047",
+   "title": "Computer Vision",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "CSE4050",
+   "title": "Generative AI",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE0401",
+   "title": "Signal Processing",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE2001",
+   "title": "Analog Devices and Circuits",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE2002",
+   "title": "Computer Organization and Architecture",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE2003",
+   "title": "Control Systems Engineering",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE2005",
+   "title": "Signals and Systems",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE2006",
+   "title": "Communication Systems",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE2007",
+   "title": "Digital Signal Processing",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE2009",
+   "title": "Data Acquisition and Transmission Systems",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE2013",
+   "title": "Computer Organization and Architecture",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE2014",
+   "title": "Microprocessors and Microcontrollers",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE3005",
+   "title": "CMOS VLSI Design",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE4002",
+   "title": "Wireless and Mobile Communications",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE4003",
+   "title": "Embedded C Programming and Linux Development",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECE4005",
+   "title": "SoC Design",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECS2003",
+   "title": "Project Ideation, Design and Prototyping",
+   "types": [
+    "PJT"
+   ],
+   "credits": null,
+   "credits_source": "unknown",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ECS3001",
+   "title": "Engineering Clinics - II",
+   "types": [
+    "PJT"
+   ],
+   "credits": null,
+   "credits_source": "unknown",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ENG1014",
+   "title": "Enhancing English Communication Skills",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ENG1017",
+   "title": "Film Appreciation",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ENG1018",
+   "title": "Introduction to Fashion and Technology",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ENG2008",
+   "title": "Business Communication and Value Science - III",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ENG2013",
+   "title": "Cross-Cultural Communication Skills for Global Interaction",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "ENG2014",
+   "title": "Decoding Television in the Digital Age",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "FRL1001",
+   "title": "Basic French",
+   "types": [
+    "TH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "FRL1004",
+   "title": "Basic Spanish",
+   "types": [
+    "TH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "FRL1005",
+   "title": "German for Beginners",
+   "types": [
+    "TH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "FRL2004",
+   "title": "Korean for Beginners-I",
+   "types": [
+    "TH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "FRL2005",
+   "title": "German for Advanced Learners",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM1104",
+   "title": "Exploration of Social Inequalities",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM1108",
+   "title": "Audit and Assurance",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM2002",
+   "title": "Behavioral Economics",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM2014",
+   "title": "Introduction of French Theatre from Classics to Contemporary",
+   "types": [
+    "TH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM2111",
+   "title": "Politics of Globalization",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM2117",
+   "title": "Financial Reporting",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM2118",
+   "title": "Intermediate Microeconomics",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM2119",
+   "title": "Statistics For Economics",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM2120",
+   "title": "Intermediate Macroeconomics",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM3103",
+   "title": "Strategic Business Reporting",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM3108",
+   "title": "Development Economics - II",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM3109",
+   "title": "Econometrics - II",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "HUM3110",
+   "title": "Indian Economy",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW2100",
+   "title": "Research Methods",
+   "types": [
+    "TH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW2101",
+   "title": "Constitutional Law : Preamble, Citizenship, Fundamental Rights and DPSP",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW2102",
+   "title": "Law of Crimes: Bhartiya Nyaya Sanhita",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW2103",
+   "title": "Law Relating Marriage, Divorce and Maintenance",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW2104",
+   "title": "International Relations",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW2110",
+   "title": "Code of Criminal Procedure Bhartiya Nayaya Suraksha Sanhita (BNSS) Probation of Offenders Act and Juvenile Justice Act",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW2111",
+   "title": "Intellectual Property Law",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW2112",
+   "title": "Administrative Law",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW2113",
+   "title": "Law and Economics",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW2115",
+   "title": "International Trade Law",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW3101",
+   "title": "Company Law",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW3102",
+   "title": "Interpretation of Statutes",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW4101",
+   "title": "The Code of Civil Procedure and Limitation Act",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW4102",
+   "title": "Law of Taxation",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW4103",
+   "title": "Wage and Industrial Relations Code",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW4104",
+   "title": "Drafting and Pleadings",
+   "types": [
+    "ELA"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW4105",
+   "title": "Moot Court and Internship",
+   "types": [
+    "ELA"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW4106",
+   "title": "International Investment Law",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW5107",
+   "title": "Election Laws",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW5109",
+   "title": "Insurance Law",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW5110",
+   "title": "Alternative Dispute Resolutions",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW5111",
+   "title": "Competition Law",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW5113",
+   "title": "International Commercial Arbitration",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW5114",
+   "title": "Indian Federalism",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LAW5116",
+   "title": "Seminar Paper - 1",
+   "types": [
+    "PJT"
+   ],
+   "credits": null,
+   "credits_source": "unknown",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB1013",
+   "title": "Introduction to Comics and Graphic Narratives",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB1016",
+   "title": "Theory of Performance and Practice",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB1019",
+   "title": "Dynamics of Gender Psychology",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB1020",
+   "title": "Basic Psychology for Engineers",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB1024",
+   "title": "Positive Psychology and the Science of Well-being",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB1101",
+   "title": "Introduction to Anthropology",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB1111",
+   "title": "History of Medieval India",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB2007",
+   "title": "The Aesthetics of Performing Arts",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB2010",
+   "title": "Food & Literature",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB2016",
+   "title": "Human Factors Psychology",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB2019",
+   "title": "Water and Society",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB2021",
+   "title": "Psychology for the Industrial Sector",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB2023",
+   "title": "Constitution of India: Formation and Implementation",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB2108",
+   "title": "International Relations: The Concepts & Elements",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB2115",
+   "title": "The Psychology of Humans as Social Beings",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB2123",
+   "title": "International Political Economy",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB2124",
+   "title": "Politics of Development",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB2127",
+   "title": "Anthropology and Human Evolution",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB3106",
+   "title": "Statistical Software for Social Sciences",
+   "types": [
+    "ETH"
+   ],
+   "credits": 1,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB3201",
+   "title": "Social Movements in India",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "LIB4101",
+   "title": "Research Methodology",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT1003",
+   "title": "Discrete Mathematical Structures",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT1006",
+   "title": "Business Statistics",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT1007",
+   "title": "Discrete Mathematics",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT1107",
+   "title": "Statistics for Data Science",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT1110",
+   "title": "Introduction to Regression Analysis",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT2001",
+   "title": "Numerical Methods for Engineers",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT2003",
+   "title": "Optimization Techniques",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT2005",
+   "title": "Linear Algebra",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT2011",
+   "title": "Graph Theory and Applications",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT2101",
+   "title": "Stochastic Processes",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT2103",
+   "title": "Optimization Methods for Data Science",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT3004",
+   "title": "Parallel Matrix Computation",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT3103",
+   "title": "Actuarial Statistics",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT3106",
+   "title": "Statistical Models for Financial Markets",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT4105",
+   "title": "Research Methods and Project Preparation",
+   "types": [
+    "TH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT4201",
+   "title": "Time Series Analysis and Forecasting",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MAT4203",
+   "title": "Multivariate Data Analysis",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MEC2002",
+   "title": "Thermodynamics",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MEC2003",
+   "title": "Strength of Materials",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MEC2004",
+   "title": "Fluid Mechanics",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MEC2010",
+   "title": "Machine Drawing",
+   "types": [
+    "LO"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MEC2017",
+   "title": "Vehicle Dynamics",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MEC3005",
+   "title": "Automation in Manufacturing",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MEC3012",
+   "title": "Additive Manufacturing",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MEC3026",
+   "title": "Robot Kinematics",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MEC3028",
+   "title": "Robot Programming",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MEC3029",
+   "title": "Machining Processes and Workshop Technology",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MEC4003",
+   "title": "Internal Combustion Engines",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT1001",
+   "title": "Ethics and Values",
+   "types": [
+    "LO"
+   ],
+   "credits": 1,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT1003",
+   "title": "Fundamentals of Marketing",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT1024",
+   "title": "Human Resource Management",
+   "types": [
+    "TH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT1034",
+   "title": "Introduction to Innovation, IP Management and Entrepreneurship",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT1040",
+   "title": "Entrepreneurship",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT1105",
+   "title": "Business Law",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT1109",
+   "title": "Management Accounting",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT1117",
+   "title": "Principles of Indian Economy and Development Economics",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT1119",
+   "title": "Business Practice - I Digital Marketing",
+   "types": [
+    "PJT"
+   ],
+   "credits": null,
+   "credits_source": "unknown",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT1121",
+   "title": "Business Practice - I Business Analytics",
+   "types": [
+    "PJT"
+   ],
+   "credits": null,
+   "credits_source": "unknown",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT1123",
+   "title": "Business Practice - I Fintech",
+   "types": [
+    "PJT"
+   ],
+   "credits": null,
+   "credits_source": "unknown",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT2010",
+   "title": "Business Strategy",
+   "types": [
+    "TH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT2101",
+   "title": "Financial Management",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT2102",
+   "title": "Marketing Management",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT2103",
+   "title": "Human Resource Management",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT2109",
+   "title": "Corporate Accounting",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT2112",
+   "title": "Financial Institutions and Financial Markets",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT2122",
+   "title": "Essentials of Artificial Intelligence for Managers",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT3001",
+   "title": "Services Science and Service Operational Management",
+   "types": [
+    "ETH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT3101",
+   "title": "Strategic Management",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT3120",
+   "title": "Financial Statement Analysis",
+   "types": [
+    "ETH"
+   ],
+   "credits": 2,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT3121",
+   "title": "Banking Theory and Practice",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT3130",
+   "title": "Advanced Audit and Assurance",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT3202",
+   "title": "Consumer Behaviour",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT3222",
+   "title": "Advanced Financial Management",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "MGT4100",
+   "title": "Corporate Governance and Business Ethics",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "PHY2001",
+   "title": "Applied Electromagnetics",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "PHY2003",
+   "title": "Condensed Matter Physics",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "PHY2004",
+   "title": "Optoelectronics",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "PHY2005",
+   "title": "Introduction to Nanotechnology",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "PHY2006",
+   "title": "Solar Photovoltaics : Fundamentals and Technologies",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "PHY2100",
+   "title": "Solar Photovoltaic System Design and Installation",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "STS2003",
+   "title": "Aptitude and Reasoning Skills",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "STS2006",
+   "title": "Getting Started to Skill Enhancement",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "STS2010",
+   "title": "Qualitative And Quantitative Skills Practice - I",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "STS3006",
+   "title": "Basic Competitive Coding - I",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "STS3007",
+   "title": "Advanced Competitive Coding - I",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "STS3008",
+   "title": "Competitive Coding - I",
+   "types": [
+    "TH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "University Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE1002",
+   "title": "Principles of Software Engineering",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE2001",
+   "title": "Data Structures and Its Applications",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE2007",
+   "title": "Introduction to Operating Systems",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE2008",
+   "title": "Object Oriented Analysis and Design",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE2009",
+   "title": "Analysis of Algorithms",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Core",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE3002",
+   "title": "Software Project Management",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE3003",
+   "title": "Information and System Security",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE3004",
+   "title": "Front End Design and Testing",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE4004",
+   "title": "Cloud Computing and its Applications",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE4007",
+   "title": "Software Application Architecture",
+   "types": [
+    "ETH"
+   ],
+   "credits": 3,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE4008",
+   "title": "Application Development and Deployment Architecture",
+   "types": [
+    "ELA",
+    "ETH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  },
+  {
+   "code": "SWE4010",
+   "title": "Formal Language and Automata Theory",
+   "types": [
+    "TH"
+   ],
+   "credits": 4,
+   "credits_source": "derived",
+   "basket": "Program Elective",
+   "basket_source": "synthetic"
+  }
+ ],
+ "offerings": [
+  {
+   "id": "CAP4001|PJT|NILL",
+   "course": "CAP4001",
+   "type": "PJT",
+   "slot": "NILL",
+   "sections": 1
+  },
+  {
+   "id": "CHY1005|TH|A1+TA1",
+   "course": "CHY1005",
+   "type": "TH",
+   "slot": "A1+TA1",
+   "sections": 1
+  },
+  {
+   "id": "CHY1006|TH|A2+TA2",
+   "course": "CHY1006",
+   "type": "TH",
+   "slot": "A2+TA2",
+   "sections": 1
+  },
+  {
+   "id": "CHY1007|TH|D2+TDD2",
+   "course": "CHY1007",
+   "type": "TH",
+   "slot": "D2+TDD2",
+   "sections": 1
+  },
+  {
+   "id": "CHY1007|TH|E2+TE2",
+   "course": "CHY1007",
+   "type": "TH",
+   "slot": "E2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "CHY2001|TH|F1+TF1",
+   "course": "CHY2001",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "CHY2002|TH|F1+TF1",
+   "course": "CHY2002",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "CHY2002|TH|F2+TF2",
+   "course": "CHY2002",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "CHY4207|LO|L31+L32+L49+L50",
+   "course": "CHY4207",
+   "type": "LO",
+   "slot": "L31+L32+L49+L50",
+   "sections": 1
+  },
+  {
+   "id": "CHY4208|TH|D1+SD1+TD1",
+   "course": "CHY4208",
+   "type": "TH",
+   "slot": "D1+SD1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "CHY4301|TH|A1+TA1+TAA1",
+   "course": "CHY4301",
+   "type": "TH",
+   "slot": "A1+TA1+TAA1",
+   "sections": 1
+  },
+  {
+   "id": "CHY4307|TH|B1+TB1+TBB1",
+   "course": "CHY4307",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 1
+  },
+  {
+   "id": "CHY4310|TH|F1+TBB2+TF1",
+   "course": "CHY4310",
+   "type": "TH",
+   "slot": "F1+TBB2+TF1",
+   "sections": 1
+  },
+  {
+   "id": "CSE0207|ETH|C1+TC1",
+   "course": "CSE0207",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "CSE0208|ELA|L21+L22",
+   "course": "CSE0208",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "CSE0208|ETH|E2+TE2",
+   "course": "CSE0208",
+   "type": "ETH",
+   "slot": "E2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "CSE0305|ELA|L43+L44",
+   "course": "CSE0305",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 1
+  },
+  {
+   "id": "CSE0305|ETH|D1+TD1",
+   "course": "CSE0305",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "CSE0312|ETH|E1+TE1",
+   "course": "CSE0312",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "CSE0312|ETH|E2+TE2",
+   "course": "CSE0312",
+   "type": "ETH",
+   "slot": "E2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "CSE0401|ELA|L45+L46",
+   "course": "CSE0401",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 1
+  },
+  {
+   "id": "CSE0401|ETH|G2",
+   "course": "CSE0401",
+   "type": "ETH",
+   "slot": "G2",
+   "sections": 1
+  },
+  {
+   "id": "CSE0402|ELA|L39+L40",
+   "course": "CSE0402",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 1
+  },
+  {
+   "id": "CSE0402|ETH|E1+TE1",
+   "course": "CSE0402",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "CSE0506|ETH|G1",
+   "course": "CSE0506",
+   "type": "ETH",
+   "slot": "G1",
+   "sections": 1
+  },
+  {
+   "id": "CSE0601|ELA|L17+L18",
+   "course": "CSE0601",
+   "type": "ELA",
+   "slot": "L17+L18",
+   "sections": 1
+  },
+  {
+   "id": "CSE0601|ELA|L57+L58",
+   "course": "CSE0601",
+   "type": "ELA",
+   "slot": "L57+L58",
+   "sections": 1
+  },
+  {
+   "id": "CSE0601|ETH|C1+TC1",
+   "course": "CSE0601",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "CSE0601|ETH|C2+TC2",
+   "course": "CSE0601",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "CSE0602|ELA|L23+L24",
+   "course": "CSE0602",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 1
+  },
+  {
+   "id": "CSE0602|ELA|L51+L52",
+   "course": "CSE0602",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "CSE0602|ETH|B1+TB1",
+   "course": "CSE0602",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 1
+  },
+  {
+   "id": "CSE0602|ETH|B2+TB2",
+   "course": "CSE0602",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 1
+  },
+  {
+   "id": "CSE1013|TH|E1+TE1",
+   "course": "CSE1013",
+   "type": "TH",
+   "slot": "E1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "CSE1013|TH|E2+TE2",
+   "course": "CSE1013",
+   "type": "TH",
+   "slot": "E2+TE2",
+   "sections": 2
+  },
+  {
+   "id": "CSE1022|ELA|L1+L2",
+   "course": "CSE1022",
+   "type": "ELA",
+   "slot": "L1+L2",
+   "sections": 1
+  },
+  {
+   "id": "CSE1022|ELA|L11+L12",
+   "course": "CSE1022",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 1
+  },
+  {
+   "id": "CSE1022|ELA|L23+L24",
+   "course": "CSE1022",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 1
+  },
+  {
+   "id": "CSE1022|ELA|L3+L4",
+   "course": "CSE1022",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 1
+  },
+  {
+   "id": "CSE1022|ELA|L39+L40",
+   "course": "CSE1022",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 1
+  },
+  {
+   "id": "CSE1022|ELA|L41+L42",
+   "course": "CSE1022",
+   "type": "ELA",
+   "slot": "L41+L42",
+   "sections": 1
+  },
+  {
+   "id": "CSE1022|ELA|L47+L48",
+   "course": "CSE1022",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 1
+  },
+  {
+   "id": "CSE1022|ETH|F1+TF1",
+   "course": "CSE1022",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 3
+  },
+  {
+   "id": "CSE1022|ETH|F1+TFF1",
+   "course": "CSE1022",
+   "type": "ETH",
+   "slot": "F1+TFF1",
+   "sections": 1
+  },
+  {
+   "id": "CSE1022|ETH|F2+TF2",
+   "course": "CSE1022",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 3
+  },
+  {
+   "id": "CSE1022|ETH|F2+TFF2",
+   "course": "CSE1022",
+   "type": "ETH",
+   "slot": "F2+TFF2",
+   "sections": 1
+  },
+  {
+   "id": "CSE2001|ELA|L1+L2",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L1+L2",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L11+L12",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L13+L14",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L13+L14",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L15+L16",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 1
+  },
+  {
+   "id": "CSE2001|ELA|L19+L20",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L19+L20",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L21+L22",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L23+L24",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L25+L26",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L25+L26",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L27+L28",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L29+L30",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L3+L4",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 3
+  },
+  {
+   "id": "CSE2001|ELA|L31+L32",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 3
+  },
+  {
+   "id": "CSE2001|ELA|L33+L34",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L35+L36",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L37+L38",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L39+L40",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L41+L42",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L41+L42",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L43+L44",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L45+L46",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L47+L48",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L49+L50",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L49+L50",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L5+L6",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L51+L52",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L53+L54",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L53+L54",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L55+L56",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L7+L8",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L7+L8",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ELA|L9+L10",
+   "course": "CSE2001",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 2
+  },
+  {
+   "id": "CSE2001|ETH|D1+TD1",
+   "course": "CSE2001",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 7
+  },
+  {
+   "id": "CSE2001|ETH|D1+TDD1",
+   "course": "CSE2001",
+   "type": "ETH",
+   "slot": "D1+TDD1",
+   "sections": 6
+  },
+  {
+   "id": "CSE2001|ETH|D2+TD2",
+   "course": "CSE2001",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 7
+  },
+  {
+   "id": "CSE2001|ETH|D2+TDD2",
+   "course": "CSE2001",
+   "type": "ETH",
+   "slot": "D2+TDD2",
+   "sections": 6
+  },
+  {
+   "id": "CSE2001|ETH|E1+TE1",
+   "course": "CSE2001",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 13
+  },
+  {
+   "id": "CSE2001|ETH|E2+TE2",
+   "course": "CSE2001",
+   "type": "ETH",
+   "slot": "E2+TE2",
+   "sections": 13
+  },
+  {
+   "id": "CSE2004|ETH|C1+TC1",
+   "course": "CSE2004",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "CSE2008|ELA|L1+L2",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L1+L2",
+   "sections": 1
+  },
+  {
+   "id": "CSE2008|ELA|L11+L12",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L13+L14",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L13+L14",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L15+L16",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L19+L20",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L19+L20",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L21+L22",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L23+L24",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L25+L26",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L25+L26",
+   "sections": 1
+  },
+  {
+   "id": "CSE2008|ELA|L27+L28",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "CSE2008|ELA|L29+L30",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L3+L4",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L31+L32",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L33+L34",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L35+L36",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 1
+  },
+  {
+   "id": "CSE2008|ELA|L37+L38",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L39+L40",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L41+L42",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L41+L42",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L43+L44",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 1
+  },
+  {
+   "id": "CSE2008|ELA|L45+L46",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L47+L48",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L49+L50",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L49+L50",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L5+L6",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L51+L52",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L53+L54",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L53+L54",
+   "sections": 1
+  },
+  {
+   "id": "CSE2008|ELA|L55+L56",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ELA|L7+L8",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L7+L8",
+   "sections": 1
+  },
+  {
+   "id": "CSE2008|ELA|L9+L10",
+   "course": "CSE2008",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 2
+  },
+  {
+   "id": "CSE2008|ETH|D1+TD1",
+   "course": "CSE2008",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 7
+  },
+  {
+   "id": "CSE2008|ETH|D1+TDD1",
+   "course": "CSE2008",
+   "type": "ETH",
+   "slot": "D1+TDD1",
+   "sections": 3
+  },
+  {
+   "id": "CSE2008|ETH|D2+TD2",
+   "course": "CSE2008",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 8
+  },
+  {
+   "id": "CSE2008|ETH|D2+TDD2",
+   "course": "CSE2008",
+   "type": "ETH",
+   "slot": "D2+TDD2",
+   "sections": 3
+  },
+  {
+   "id": "CSE2008|ETH|F1+TF1",
+   "course": "CSE2008",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 7
+  },
+  {
+   "id": "CSE2008|ETH|F1+TFF1",
+   "course": "CSE2008",
+   "type": "ETH",
+   "slot": "F1+TFF1",
+   "sections": 4
+  },
+  {
+   "id": "CSE2008|ETH|F2+TF2",
+   "course": "CSE2008",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 7
+  },
+  {
+   "id": "CSE2008|ETH|F2+TFF2",
+   "course": "CSE2008",
+   "type": "ETH",
+   "slot": "F2+TFF2",
+   "sections": 3
+  },
+  {
+   "id": "CSE2009|ETH|B1+TB1",
+   "course": "CSE2009",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 2
+  },
+  {
+   "id": "CSE2009|ETH|B2+TB2",
+   "course": "CSE2009",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 1
+  },
+  {
+   "id": "CSE2013|TH|B1+TB1+TBB1",
+   "course": "CSE2013",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 2
+  },
+  {
+   "id": "CSE2013|TH|B2+TB2+TBB2",
+   "course": "CSE2013",
+   "type": "TH",
+   "slot": "B2+TB2+TBB2",
+   "sections": 1
+  },
+  {
+   "id": "CSE2015|ELA|L1+L2",
+   "course": "CSE2015",
+   "type": "ELA",
+   "slot": "L1+L2",
+   "sections": 1
+  },
+  {
+   "id": "CSE2015|ELA|L23+L24",
+   "course": "CSE2015",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 1
+  },
+  {
+   "id": "CSE2015|ELA|L51+L52",
+   "course": "CSE2015",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "CSE2015|ETH|C1+TC1",
+   "course": "CSE2015",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "CSE2015|ETH|C2+TC2",
+   "course": "CSE2015",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "CSE2015|ETH|C2+TCC2",
+   "course": "CSE2015",
+   "type": "ETH",
+   "slot": "C2+TCC2",
+   "sections": 1
+  },
+  {
+   "id": "CSE2016|ELA|L13+L14",
+   "course": "CSE2016",
+   "type": "ELA",
+   "slot": "L13+L14",
+   "sections": 1
+  },
+  {
+   "id": "CSE2016|ELA|L37+L38",
+   "course": "CSE2016",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 1
+  },
+  {
+   "id": "CSE2016|ELA|L9+L10",
+   "course": "CSE2016",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "CSE2016|ETH|B1+TB1",
+   "course": "CSE2016",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 1
+  },
+  {
+   "id": "CSE2016|ETH|B2+TB2",
+   "course": "CSE2016",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 2
+  },
+  {
+   "id": "CSE2018|ELA|L27+L28",
+   "course": "CSE2018",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "CSE2018|ELA|L3+L4",
+   "course": "CSE2018",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 1
+  },
+  {
+   "id": "CSE2018|ELA|L35+L36",
+   "course": "CSE2018",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 1
+  },
+  {
+   "id": "CSE2018|ETH|A1+TA1",
+   "course": "CSE2018",
+   "type": "ETH",
+   "slot": "A1+TA1",
+   "sections": 1
+  },
+  {
+   "id": "CSE2018|ETH|A2+TA2",
+   "course": "CSE2018",
+   "type": "ETH",
+   "slot": "A2+TA2",
+   "sections": 2
+  },
+  {
+   "id": "CSE2019|ELA|L11+L12",
+   "course": "CSE2019",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 1
+  },
+  {
+   "id": "CSE2019|ELA|L33+L34",
+   "course": "CSE2019",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 1
+  },
+  {
+   "id": "CSE2019|ELA|L49+L50",
+   "course": "CSE2019",
+   "type": "ELA",
+   "slot": "L49+L50",
+   "sections": 1
+  },
+  {
+   "id": "CSE2019|ELA|L7+L8",
+   "course": "CSE2019",
+   "type": "ELA",
+   "slot": "L7+L8",
+   "sections": 1
+  },
+  {
+   "id": "CSE2019|ETH|A1+TA1",
+   "course": "CSE2019",
+   "type": "ETH",
+   "slot": "A1+TA1",
+   "sections": 2
+  },
+  {
+   "id": "CSE2019|ETH|A2+TA2",
+   "course": "CSE2019",
+   "type": "ETH",
+   "slot": "A2+TA2",
+   "sections": 2
+  },
+  {
+   "id": "CSE2025|TH|A1+TA1",
+   "course": "CSE2025",
+   "type": "TH",
+   "slot": "A1+TA1",
+   "sections": 9
+  },
+  {
+   "id": "CSE2025|TH|A2+TA2",
+   "course": "CSE2025",
+   "type": "TH",
+   "slot": "A2+TA2",
+   "sections": 9
+  },
+  {
+   "id": "CSE2025|TH|B1+TB1",
+   "course": "CSE2025",
+   "type": "TH",
+   "slot": "B1+TB1",
+   "sections": 9
+  },
+  {
+   "id": "CSE2025|TH|B2+TB2",
+   "course": "CSE2025",
+   "type": "TH",
+   "slot": "B2+TB2",
+   "sections": 9
+  },
+  {
+   "id": "CSE2027|TH|D1+TD1",
+   "course": "CSE2027",
+   "type": "TH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "CSE2027|TH|D2+TD2",
+   "course": "CSE2027",
+   "type": "TH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "CSE2027|TH|F1+TF1",
+   "course": "CSE2027",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "CSE2027|TH|F2+TF2",
+   "course": "CSE2027",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "CSE2027|TH|G1+TG1",
+   "course": "CSE2027",
+   "type": "TH",
+   "slot": "G1+TG1",
+   "sections": 1
+  },
+  {
+   "id": "CSE2028|TH|D1+TD1",
+   "course": "CSE2028",
+   "type": "TH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "CSE2028|TH|E2+TE2",
+   "course": "CSE2028",
+   "type": "TH",
+   "slot": "E2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "CSE3001|ETH|D2+TD2",
+   "course": "CSE3001",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "CSE3001|ETH|D2+TDD2",
+   "course": "CSE3001",
+   "type": "ETH",
+   "slot": "D2+TDD2",
+   "sections": 1
+  },
+  {
+   "id": "CSE3001|ETH|F1+TF1",
+   "course": "CSE3001",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "CSE3001|ETH|F1+TFF1",
+   "course": "CSE3001",
+   "type": "ETH",
+   "slot": "F1+TFF1",
+   "sections": 1
+  },
+  {
+   "id": "CSE3002|ELA|L1+L2",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L1+L2",
+   "sections": 1
+  },
+  {
+   "id": "CSE3002|ELA|L11+L12",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 3
+  },
+  {
+   "id": "CSE3002|ELA|L13+L14",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L13+L14",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L15+L16",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L19+L20",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L19+L20",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L21+L22",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "CSE3002|ELA|L23+L24",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L25+L26",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L25+L26",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L27+L28",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "CSE3002|ELA|L29+L30",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 1
+  },
+  {
+   "id": "CSE3002|ELA|L3+L4",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 1
+  },
+  {
+   "id": "CSE3002|ELA|L31+L32",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L33+L34",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 1
+  },
+  {
+   "id": "CSE3002|ELA|L35+L36",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 1
+  },
+  {
+   "id": "CSE3002|ELA|L37+L38",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L39+L40",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L41+L42",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L41+L42",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L43+L44",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L45+L46",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 1
+  },
+  {
+   "id": "CSE3002|ELA|L49+L50",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L49+L50",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L5+L6",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L51+L52",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "CSE3002|ELA|L53+L54",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L53+L54",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L55+L56",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 3
+  },
+  {
+   "id": "CSE3002|ELA|L7+L8",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L7+L8",
+   "sections": 2
+  },
+  {
+   "id": "CSE3002|ELA|L9+L10",
+   "course": "CSE3002",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "CSE3002|ETH|A1+TA1",
+   "course": "CSE3002",
+   "type": "ETH",
+   "slot": "A1+TA1",
+   "sections": 11
+  },
+  {
+   "id": "CSE3002|ETH|A2+TA2",
+   "course": "CSE3002",
+   "type": "ETH",
+   "slot": "A2+TA2",
+   "sections": 11
+  },
+  {
+   "id": "CSE3002|ETH|C1+TC1",
+   "course": "CSE3002",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 6
+  },
+  {
+   "id": "CSE3002|ETH|C1+TCC1",
+   "course": "CSE3002",
+   "type": "ETH",
+   "slot": "C1+TCC1",
+   "sections": 3
+  },
+  {
+   "id": "CSE3002|ETH|C2+TC2",
+   "course": "CSE3002",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 6
+  },
+  {
+   "id": "CSE3002|ETH|C2+TCC2",
+   "course": "CSE3002",
+   "type": "ETH",
+   "slot": "C2+TCC2",
+   "sections": 5
+  },
+  {
+   "id": "CSE3003|ELA|L1+L2",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L1+L2",
+   "sections": 1
+  },
+  {
+   "id": "CSE3003|ELA|L11+L12",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L13+L14",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L13+L14",
+   "sections": 1
+  },
+  {
+   "id": "CSE3003|ELA|L15+L16",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L19+L20",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L19+L20",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L21+L22",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L23+L24",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 1
+  },
+  {
+   "id": "CSE3003|ELA|L25+L26",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L25+L26",
+   "sections": 1
+  },
+  {
+   "id": "CSE3003|ELA|L27+L28",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L29+L30",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L3+L4",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L31+L32",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L33+L34",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L35+L36",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L37+L38",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L39+L40",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L41+L42",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L41+L42",
+   "sections": 1
+  },
+  {
+   "id": "CSE3003|ELA|L43+L44",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L45+L46",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L47+L48",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 1
+  },
+  {
+   "id": "CSE3003|ELA|L49+L50",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L49+L50",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L5+L6",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L51+L52",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L55+L56",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ELA|L7+L8",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L7+L8",
+   "sections": 1
+  },
+  {
+   "id": "CSE3003|ELA|L9+L10",
+   "course": "CSE3003",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 2
+  },
+  {
+   "id": "CSE3003|ETH|E1+TE1",
+   "course": "CSE3003",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 10
+  },
+  {
+   "id": "CSE3003|ETH|E2+TE2",
+   "course": "CSE3003",
+   "type": "ETH",
+   "slot": "E2+TE2",
+   "sections": 11
+  },
+  {
+   "id": "CSE3003|ETH|F1+TF1",
+   "course": "CSE3003",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 7
+  },
+  {
+   "id": "CSE3003|ETH|F1+TFF1",
+   "course": "CSE3003",
+   "type": "ETH",
+   "slot": "F1+TFF1",
+   "sections": 3
+  },
+  {
+   "id": "CSE3003|ETH|F2+TF2",
+   "course": "CSE3003",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 6
+  },
+  {
+   "id": "CSE3003|ETH|F2+TFF2",
+   "course": "CSE3003",
+   "type": "ETH",
+   "slot": "F2+TFF2",
+   "sections": 5
+  },
+  {
+   "id": "CSE3004|ELA|L1+L2",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L1+L2",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L11+L12",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 1
+  },
+  {
+   "id": "CSE3004|ELA|L13+L14",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L13+L14",
+   "sections": 1
+  },
+  {
+   "id": "CSE3004|ELA|L15+L16",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L19+L20",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L19+L20",
+   "sections": 1
+  },
+  {
+   "id": "CSE3004|ELA|L21+L22",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L23+L24",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L25+L26",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L25+L26",
+   "sections": 1
+  },
+  {
+   "id": "CSE3004|ELA|L27+L28",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L29+L30",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L3+L4",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L31+L32",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L33+L34",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L35+L36",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 1
+  },
+  {
+   "id": "CSE3004|ELA|L37+L38",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L39+L40",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L41+L42",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L41+L42",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L43+L44",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L45+L46",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L47+L48",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 1
+  },
+  {
+   "id": "CSE3004|ELA|L49+L50",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L49+L50",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L5+L6",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L51+L52",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L53+L54",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L53+L54",
+   "sections": 1
+  },
+  {
+   "id": "CSE3004|ELA|L55+L56",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L7+L8",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L7+L8",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ELA|L9+L10",
+   "course": "CSE3004",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 2
+  },
+  {
+   "id": "CSE3004|ETH|D1+TD1",
+   "course": "CSE3004",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 7
+  },
+  {
+   "id": "CSE3004|ETH|D1+TDD1",
+   "course": "CSE3004",
+   "type": "ETH",
+   "slot": "D1+TDD1",
+   "sections": 4
+  },
+  {
+   "id": "CSE3004|ETH|D2+TD2",
+   "course": "CSE3004",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 6
+  },
+  {
+   "id": "CSE3004|ETH|D2+TDD2",
+   "course": "CSE3004",
+   "type": "ETH",
+   "slot": "D2+TDD2",
+   "sections": 5
+  },
+  {
+   "id": "CSE3004|ETH|E1+TE1",
+   "course": "CSE3004",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 10
+  },
+  {
+   "id": "CSE3004|ETH|E2+TE2",
+   "course": "CSE3004",
+   "type": "ETH",
+   "slot": "E2+TE2",
+   "sections": 10
+  },
+  {
+   "id": "CSE3005|ELA|L11+L12",
+   "course": "CSE3005",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 1
+  },
+  {
+   "id": "CSE3005|ELA|L27+L28",
+   "course": "CSE3005",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "CSE3005|ELA|L51+L52",
+   "course": "CSE3005",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "CSE3005|ETH|D1+TD1",
+   "course": "CSE3005",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "CSE3005|ETH|D2+TD2",
+   "course": "CSE3005",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "CSE3005|ETH|D2+TDD2",
+   "course": "CSE3005",
+   "type": "ETH",
+   "slot": "D2+TDD2",
+   "sections": 1
+  },
+  {
+   "id": "CSE3006|ELA|L31+L32",
+   "course": "CSE3006",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 1
+  },
+  {
+   "id": "CSE3006|ETH|E1+TE1",
+   "course": "CSE3006",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "CSE3009|ELA|L1+L2",
+   "course": "CSE3009",
+   "type": "ELA",
+   "slot": "L1+L2",
+   "sections": 1
+  },
+  {
+   "id": "CSE3009|ELA|L15+L16",
+   "course": "CSE3009",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 1
+  },
+  {
+   "id": "CSE3009|ELA|L21+L22",
+   "course": "CSE3009",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "CSE3009|ELA|L27+L28",
+   "course": "CSE3009",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "CSE3009|ELA|L29+L30",
+   "course": "CSE3009",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 1
+  },
+  {
+   "id": "CSE3009|ELA|L31+L32",
+   "course": "CSE3009",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 1
+  },
+  {
+   "id": "CSE3009|ELA|L39+L40",
+   "course": "CSE3009",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 1
+  },
+  {
+   "id": "CSE3009|ELA|L45+L46",
+   "course": "CSE3009",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 1
+  },
+  {
+   "id": "CSE3009|ELA|L51+L52",
+   "course": "CSE3009",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "CSE3009|ELA|L53+L54",
+   "course": "CSE3009",
+   "type": "ELA",
+   "slot": "L53+L54",
+   "sections": 1
+  },
+  {
+   "id": "CSE3009|ETH|C1+TC1",
+   "course": "CSE3009",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 2
+  },
+  {
+   "id": "CSE3009|ETH|C1+TCC1",
+   "course": "CSE3009",
+   "type": "ETH",
+   "slot": "C1+TCC1",
+   "sections": 2
+  },
+  {
+   "id": "CSE3009|ETH|C2+TC2",
+   "course": "CSE3009",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 2
+  },
+  {
+   "id": "CSE3009|ETH|C2+TCC2",
+   "course": "CSE3009",
+   "type": "ETH",
+   "slot": "C2+TCC2",
+   "sections": 2
+  },
+  {
+   "id": "CSE3014|ELA|L15+L16",
+   "course": "CSE3014",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 1
+  },
+  {
+   "id": "CSE3014|ELA|L29+L30",
+   "course": "CSE3014",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 1
+  },
+  {
+   "id": "CSE3014|ELA|L39+L40",
+   "course": "CSE3014",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 1
+  },
+  {
+   "id": "CSE3014|ELA|L47+L48",
+   "course": "CSE3014",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 1
+  },
+  {
+   "id": "CSE3014|ETH|C1",
+   "course": "CSE3014",
+   "type": "ETH",
+   "slot": "C1",
+   "sections": 2
+  },
+  {
+   "id": "CSE3014|ETH|C2",
+   "course": "CSE3014",
+   "type": "ETH",
+   "slot": "C2",
+   "sections": 2
+  },
+  {
+   "id": "CSE3015|ELA|L3+L4",
+   "course": "CSE3015",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 1
+  },
+  {
+   "id": "CSE3015|ELA|L43+L44",
+   "course": "CSE3015",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 1
+  },
+  {
+   "id": "CSE3015|ELA|L49+L50",
+   "course": "CSE3015",
+   "type": "ELA",
+   "slot": "L49+L50",
+   "sections": 1
+  },
+  {
+   "id": "CSE3015|ETH|F1+TF1",
+   "course": "CSE3015",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "CSE3015|ETH|F1+TFF1",
+   "course": "CSE3015",
+   "type": "ETH",
+   "slot": "F1+TFF1",
+   "sections": 1
+  },
+  {
+   "id": "CSE3015|ETH|F2+TF2",
+   "course": "CSE3015",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "CSE3024|ELA|L25+L26",
+   "course": "CSE3024",
+   "type": "ELA",
+   "slot": "L25+L26",
+   "sections": 1
+  },
+  {
+   "id": "CSE3024|ELA|L31+L32",
+   "course": "CSE3024",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 1
+  },
+  {
+   "id": "CSE3024|ELA|L9+L10",
+   "course": "CSE3024",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "CSE3024|ETH|B1+TB1",
+   "course": "CSE3024",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 2
+  },
+  {
+   "id": "CSE3024|ETH|B2+TB2",
+   "course": "CSE3024",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 2
+  },
+  {
+   "id": "CSE3028|ELA|L27+L28",
+   "course": "CSE3028",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "CSE3028|ELA|L37+L38",
+   "course": "CSE3028",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 1
+  },
+  {
+   "id": "CSE3028|ELA|L45+L46",
+   "course": "CSE3028",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 1
+  },
+  {
+   "id": "CSE3028|ELA|L5+L6",
+   "course": "CSE3028",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 1
+  },
+  {
+   "id": "CSE3028|ETH|B1",
+   "course": "CSE3028",
+   "type": "ETH",
+   "slot": "B1",
+   "sections": 2
+  },
+  {
+   "id": "CSE3028|ETH|B2",
+   "course": "CSE3028",
+   "type": "ETH",
+   "slot": "B2",
+   "sections": 2
+  },
+  {
+   "id": "CSE3035|ELA|L51+L52",
+   "course": "CSE3035",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "CSE3036|ETH|B1+TB1",
+   "course": "CSE3036",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 1
+  },
+  {
+   "id": "CSE3040|ELA|L3+L4",
+   "course": "CSE3040",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 1
+  },
+  {
+   "id": "CSE3040|ELA|L33+L34",
+   "course": "CSE3040",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 1
+  },
+  {
+   "id": "CSE3040|ELA|L51+L52",
+   "course": "CSE3040",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "CSE3040|ETH|D1+TD1",
+   "course": "CSE3040",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "CSE3040|ETH|D1+TDD1",
+   "course": "CSE3040",
+   "type": "ETH",
+   "slot": "D1+TDD1",
+   "sections": 1
+  },
+  {
+   "id": "CSE3040|ETH|D2+TD2",
+   "course": "CSE3040",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "CSE3041|ELA|L23+L24",
+   "course": "CSE3041",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 1
+  },
+  {
+   "id": "CSE3041|ELA|L25+L26",
+   "course": "CSE3041",
+   "type": "ELA",
+   "slot": "L25+L26",
+   "sections": 1
+  },
+  {
+   "id": "CSE3041|ELA|L43+L44",
+   "course": "CSE3041",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 1
+  },
+  {
+   "id": "CSE3041|ELA|L51+L52",
+   "course": "CSE3041",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "CSE3041|ELA|L9+L10",
+   "course": "CSE3041",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "CSE3041|ETH|B1+TB1",
+   "course": "CSE3041",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 2
+  },
+  {
+   "id": "CSE3041|ETH|B2+TB2",
+   "course": "CSE3041",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 2
+  },
+  {
+   "id": "CSE4003|ELA|L29+L30",
+   "course": "CSE4003",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 1
+  },
+  {
+   "id": "CSE4003|ELA|L55+L56",
+   "course": "CSE4003",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 1
+  },
+  {
+   "id": "CSE4003|ELA|L9+L10",
+   "course": "CSE4003",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "CSE4003|ETH|B1+TB1",
+   "course": "CSE4003",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 1
+  },
+  {
+   "id": "CSE4003|ETH|B2+TB2",
+   "course": "CSE4003",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 2
+  },
+  {
+   "id": "CSE4005|ETH|B2+TB2",
+   "course": "CSE4005",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 1
+  },
+  {
+   "id": "CSE4006|ETH|A1+TA1",
+   "course": "CSE4006",
+   "type": "ETH",
+   "slot": "A1+TA1",
+   "sections": 8
+  },
+  {
+   "id": "CSE4006|ETH|A2+TA2",
+   "course": "CSE4006",
+   "type": "ETH",
+   "slot": "A2+TA2",
+   "sections": 8
+  },
+  {
+   "id": "CSE4006|ETH|C1+TC1",
+   "course": "CSE4006",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 5
+  },
+  {
+   "id": "CSE4006|ETH|C1+TCC1",
+   "course": "CSE4006",
+   "type": "ETH",
+   "slot": "C1+TCC1",
+   "sections": 3
+  },
+  {
+   "id": "CSE4006|ETH|C2+TC2",
+   "course": "CSE4006",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 4
+  },
+  {
+   "id": "CSE4006|ETH|C2+TCC2",
+   "course": "CSE4006",
+   "type": "ETH",
+   "slot": "C2+TCC2",
+   "sections": 2
+  },
+  {
+   "id": "CSE4007|ELA|L13+L14",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L13+L14",
+   "sections": 1
+  },
+  {
+   "id": "CSE4007|ELA|L15+L16",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 2
+  },
+  {
+   "id": "CSE4007|ELA|L23+L24",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 2
+  },
+  {
+   "id": "CSE4007|ELA|L25+L26",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L25+L26",
+   "sections": 1
+  },
+  {
+   "id": "CSE4007|ELA|L27+L28",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "CSE4007|ELA|L35+L36",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 1
+  },
+  {
+   "id": "CSE4007|ELA|L37+L38",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 2
+  },
+  {
+   "id": "CSE4007|ELA|L41+L42",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L41+L42",
+   "sections": 1
+  },
+  {
+   "id": "CSE4007|ELA|L43+L44",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 2
+  },
+  {
+   "id": "CSE4007|ELA|L47+L48",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 1
+  },
+  {
+   "id": "CSE4007|ELA|L5+L6",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 1
+  },
+  {
+   "id": "CSE4007|ELA|L55+L56",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 1
+  },
+  {
+   "id": "CSE4007|ELA|L7+L8",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L7+L8",
+   "sections": 1
+  },
+  {
+   "id": "CSE4007|ELA|L9+L10",
+   "course": "CSE4007",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "CSE4007|ETH|A1+TA1",
+   "course": "CSE4007",
+   "type": "ETH",
+   "slot": "A1+TA1",
+   "sections": 4
+  },
+  {
+   "id": "CSE4007|ETH|A2+TA2",
+   "course": "CSE4007",
+   "type": "ETH",
+   "slot": "A2+TA2",
+   "sections": 4
+  },
+  {
+   "id": "CSE4007|ETH|B1+TB1",
+   "course": "CSE4007",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 4
+  },
+  {
+   "id": "CSE4007|ETH|B2+TB2",
+   "course": "CSE4007",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 4
+  },
+  {
+   "id": "CSE4011|ETH|C1+TC1",
+   "course": "CSE4011",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "CSE4011|ETH|C2+TC2",
+   "course": "CSE4011",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "CSE4011|ETH|C2+TCC2",
+   "course": "CSE4011",
+   "type": "ETH",
+   "slot": "C2+TCC2",
+   "sections": 1
+  },
+  {
+   "id": "CSE4012|ELA|L23+L24",
+   "course": "CSE4012",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 1
+  },
+  {
+   "id": "CSE4012|ELA|L37+L38",
+   "course": "CSE4012",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 1
+  },
+  {
+   "id": "CSE4012|ETH|C1+TC1",
+   "course": "CSE4012",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "CSE4012|ETH|C2+TC2",
+   "course": "CSE4012",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "CSE4016|ELA|L21+L22",
+   "course": "CSE4016",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "CSE4016|ETH|C2+TC2",
+   "course": "CSE4016",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "CSE4020|ELA|L27+L28",
+   "course": "CSE4020",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "CSE4021|ELA|L43+L44",
+   "course": "CSE4021",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 1
+  },
+  {
+   "id": "CSE4021|ELA|L5+L6",
+   "course": "CSE4021",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 1
+  },
+  {
+   "id": "CSE4021|ETH|F1+TF1",
+   "course": "CSE4021",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "CSE4021|ETH|F2+TF2",
+   "course": "CSE4021",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "CSE4033|ELA|L21+L22",
+   "course": "CSE4033",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "CSE4033|ELA|L3+L4",
+   "course": "CSE4033",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 1
+  },
+  {
+   "id": "CSE4033|ELA|L51+L52",
+   "course": "CSE4033",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "CSE4033|ETH|E1",
+   "course": "CSE4033",
+   "type": "ETH",
+   "slot": "E1",
+   "sections": 2
+  },
+  {
+   "id": "CSE4033|ETH|E2",
+   "course": "CSE4033",
+   "type": "ETH",
+   "slot": "E2",
+   "sections": 2
+  },
+  {
+   "id": "CSE4035|TH|C2+TC2",
+   "course": "CSE4035",
+   "type": "TH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "CSE4040|ELA|L15+L16",
+   "course": "CSE4040",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 1
+  },
+  {
+   "id": "CSE4040|ETH|E2+TE2",
+   "course": "CSE4040",
+   "type": "ETH",
+   "slot": "E2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L1+L2",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L1+L2",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L15+L16",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L21+L22",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L29+L30",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L37+L38",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L39+L40",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L41+L42",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L41+L42",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L45+L46",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L47+L48",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L5+L6",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L55+L56",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ELA|L7+L8",
+   "course": "CSE4047",
+   "type": "ELA",
+   "slot": "L7+L8",
+   "sections": 1
+  },
+  {
+   "id": "CSE4047|ETH|E1+TE1",
+   "course": "CSE4047",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 4
+  },
+  {
+   "id": "CSE4047|ETH|E2+TE2",
+   "course": "CSE4047",
+   "type": "ETH",
+   "slot": "E2+TE2",
+   "sections": 4
+  },
+  {
+   "id": "CSE4050|ETH|D1+TD1",
+   "course": "CSE4050",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "CSE4050|ETH|D2+TD2",
+   "course": "CSE4050",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "ECE0401|ELA|L55+L56",
+   "course": "ECE0401",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 1
+  },
+  {
+   "id": "ECE0401|ETH|G2",
+   "course": "ECE0401",
+   "type": "ETH",
+   "slot": "G2",
+   "sections": 1
+  },
+  {
+   "id": "ECE2001|ELA|L23+L24",
+   "course": "ECE2001",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 1
+  },
+  {
+   "id": "ECE2001|ELA|L27+L28",
+   "course": "ECE2001",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "ECE2001|ELA|L37+L38",
+   "course": "ECE2001",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 1
+  },
+  {
+   "id": "ECE2001|ELA|L47+L48",
+   "course": "ECE2001",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 1
+  },
+  {
+   "id": "ECE2001|ELA|L5+L6",
+   "course": "ECE2001",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 1
+  },
+  {
+   "id": "ECE2001|ELA|L55+L56",
+   "course": "ECE2001",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 1
+  },
+  {
+   "id": "ECE2001|ELA|L7+L8",
+   "course": "ECE2001",
+   "type": "ELA",
+   "slot": "L7+L8",
+   "sections": 1
+  },
+  {
+   "id": "ECE2001|ETH|A1+TA1",
+   "course": "ECE2001",
+   "type": "ETH",
+   "slot": "A1+TA1",
+   "sections": 2
+  },
+  {
+   "id": "ECE2001|ETH|A2+TA2",
+   "course": "ECE2001",
+   "type": "ETH",
+   "slot": "A2+TA2",
+   "sections": 2
+  },
+  {
+   "id": "ECE2001|ETH|C2+TC2",
+   "course": "ECE2001",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "ECE2001|ETH|C2+TCC2",
+   "course": "ECE2001",
+   "type": "ETH",
+   "slot": "C2+TCC2",
+   "sections": 1
+  },
+  {
+   "id": "ECE2002|TH|A1+TA1+TAA1",
+   "course": "ECE2002",
+   "type": "TH",
+   "slot": "A1+TA1+TAA1",
+   "sections": 11
+  },
+  {
+   "id": "ECE2002|TH|A2+TA2+TAA2",
+   "course": "ECE2002",
+   "type": "TH",
+   "slot": "A2+TA2+TAA2",
+   "sections": 11
+  },
+  {
+   "id": "ECE2002|TH|B1+TB1+TBB1",
+   "course": "ECE2002",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 11
+  },
+  {
+   "id": "ECE2002|TH|B2+TB2+TBB2",
+   "course": "ECE2002",
+   "type": "TH",
+   "slot": "B2+TB2+TBB2",
+   "sections": 11
+  },
+  {
+   "id": "ECE2003|ELA|L15+L16",
+   "course": "ECE2003",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 1
+  },
+  {
+   "id": "ECE2003|ELA|L29+L30",
+   "course": "ECE2003",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 1
+  },
+  {
+   "id": "ECE2003|ELA|L31+L32",
+   "course": "ECE2003",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 1
+  },
+  {
+   "id": "ECE2003|ELA|L39+L40",
+   "course": "ECE2003",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 1
+  },
+  {
+   "id": "ECE2003|ELA|L47+L48",
+   "course": "ECE2003",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 1
+  },
+  {
+   "id": "ECE2003|ELA|L7+L8",
+   "course": "ECE2003",
+   "type": "ELA",
+   "slot": "L7+L8",
+   "sections": 1
+  },
+  {
+   "id": "ECE2003|ETH|A1+TA1",
+   "course": "ECE2003",
+   "type": "ETH",
+   "slot": "A1+TA1",
+   "sections": 1
+  },
+  {
+   "id": "ECE2003|ETH|C1+TC1",
+   "course": "ECE2003",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "ECE2003|ETH|C1+TCC1",
+   "course": "ECE2003",
+   "type": "ETH",
+   "slot": "C1+TCC1",
+   "sections": 1
+  },
+  {
+   "id": "ECE2003|ETH|C2+TC2",
+   "course": "ECE2003",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "ECE2003|ETH|C2+TCC2",
+   "course": "ECE2003",
+   "type": "ETH",
+   "slot": "C2+TCC2",
+   "sections": 1
+  },
+  {
+   "id": "ECE2005|TH|A2+TA2+TAA2",
+   "course": "ECE2005",
+   "type": "TH",
+   "slot": "A2+TA2+TAA2",
+   "sections": 2
+  },
+  {
+   "id": "ECE2005|TH|B1+TB1+TBB1",
+   "course": "ECE2005",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 2
+  },
+  {
+   "id": "ECE2005|TH|B2+TB2+TBB2",
+   "course": "ECE2005",
+   "type": "TH",
+   "slot": "B2+TB2+TBB2",
+   "sections": 2
+  },
+  {
+   "id": "ECE2006|ELA|L21+L22",
+   "course": "ECE2006",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "ECE2006|ELA|L25+L26",
+   "course": "ECE2006",
+   "type": "ELA",
+   "slot": "L25+L26",
+   "sections": 1
+  },
+  {
+   "id": "ECE2006|ELA|L35+L36",
+   "course": "ECE2006",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 1
+  },
+  {
+   "id": "ECE2006|ELA|L43+L44",
+   "course": "ECE2006",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 1
+  },
+  {
+   "id": "ECE2006|ELA|L51+L52",
+   "course": "ECE2006",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "ECE2006|ELA|L9+L10",
+   "course": "ECE2006",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "ECE2006|ETH|B1+TB1",
+   "course": "ECE2006",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 2
+  },
+  {
+   "id": "ECE2006|ETH|B2+TB2",
+   "course": "ECE2006",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 2
+  },
+  {
+   "id": "ECE2006|ETH|C1+TCC1",
+   "course": "ECE2006",
+   "type": "ETH",
+   "slot": "C1+TCC1",
+   "sections": 1
+  },
+  {
+   "id": "ECE2007|ELA|L11+L12",
+   "course": "ECE2007",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 1
+  },
+  {
+   "id": "ECE2007|ELA|L49+L50",
+   "course": "ECE2007",
+   "type": "ELA",
+   "slot": "L49+L50",
+   "sections": 1
+  },
+  {
+   "id": "ECE2007|ETH|D1+TD1",
+   "course": "ECE2007",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "ECE2007|ETH|D2+TD2",
+   "course": "ECE2007",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "ECE2009|ELA|L33+L34",
+   "course": "ECE2009",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 1
+  },
+  {
+   "id": "ECE2009|ETH|E1+TE1",
+   "course": "ECE2009",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "ECE2013|TH|F1+TF1",
+   "course": "ECE2013",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "ECE2013|TH|F2+TF2",
+   "course": "ECE2013",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "ECE2013|TH|F2+TFF2",
+   "course": "ECE2013",
+   "type": "TH",
+   "slot": "F2+TFF2",
+   "sections": 1
+  },
+  {
+   "id": "ECE2014|ELA|L21+L22",
+   "course": "ECE2014",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "ECE2014|ELA|L25+L26",
+   "course": "ECE2014",
+   "type": "ELA",
+   "slot": "L25+L26",
+   "sections": 1
+  },
+  {
+   "id": "ECE2014|ELA|L31+L32",
+   "course": "ECE2014",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 1
+  },
+  {
+   "id": "ECE2014|ELA|L37+L38",
+   "course": "ECE2014",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 1
+  },
+  {
+   "id": "ECE2014|ELA|L45+L46",
+   "course": "ECE2014",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 1
+  },
+  {
+   "id": "ECE2014|ELA|L53+L54",
+   "course": "ECE2014",
+   "type": "ELA",
+   "slot": "L53+L54",
+   "sections": 1
+  },
+  {
+   "id": "ECE2014|ELA|L9+L10",
+   "course": "ECE2014",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "ECE2014|ETH|B2+TB2",
+   "course": "ECE2014",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 2
+  },
+  {
+   "id": "ECE2014|ETH|C1+TC1",
+   "course": "ECE2014",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "ECE2014|ETH|C1+TCC1",
+   "course": "ECE2014",
+   "type": "ETH",
+   "slot": "C1+TCC1",
+   "sections": 1
+  },
+  {
+   "id": "ECE2014|ETH|C2+TC2",
+   "course": "ECE2014",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "ECE2014|ETH|C2+TCC2",
+   "course": "ECE2014",
+   "type": "ETH",
+   "slot": "C2+TCC2",
+   "sections": 1
+  },
+  {
+   "id": "ECE3005|ELA|L5+L6",
+   "course": "ECE3005",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 1
+  },
+  {
+   "id": "ECE3005|ETH|E2+TE2",
+   "course": "ECE3005",
+   "type": "ETH",
+   "slot": "E2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "ECE4002|TH|F1+TF1",
+   "course": "ECE4002",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "ECE4002|TH|F2+TF2",
+   "course": "ECE4002",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "ECE4003|ELA|L55+L56",
+   "course": "ECE4003",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 1
+  },
+  {
+   "id": "ECE4003|ETH|F1+TF1",
+   "course": "ECE4003",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "ECE4005|ELA|L27+L28",
+   "course": "ECE4005",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "ECE4005|ETH|F2+TF2",
+   "course": "ECE4005",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "ECS2003|PJT|NILL",
+   "course": "ECS2003",
+   "type": "PJT",
+   "slot": "NILL",
+   "sections": 1
+  },
+  {
+   "id": "ECS3001|PJT|NILL",
+   "course": "ECS3001",
+   "type": "PJT",
+   "slot": "NILL",
+   "sections": 1
+  },
+  {
+   "id": "ENG1014|TH|F2+TF2",
+   "course": "ENG1014",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "ENG1017|TH|B1+TB1",
+   "course": "ENG1017",
+   "type": "TH",
+   "slot": "B1+TB1",
+   "sections": 1
+  },
+  {
+   "id": "ENG1018|TH|E1+TE1",
+   "course": "ENG1018",
+   "type": "TH",
+   "slot": "E1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "ENG2008|ELA|L11+L12",
+   "course": "ENG2008",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 1
+  },
+  {
+   "id": "ENG2008|ELA|L19+L20",
+   "course": "ENG2008",
+   "type": "ELA",
+   "slot": "L19+L20",
+   "sections": 1
+  },
+  {
+   "id": "ENG2008|ELA|L23+L24",
+   "course": "ENG2008",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 1
+  },
+  {
+   "id": "ENG2008|ELA|L29+L30",
+   "course": "ENG2008",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 1
+  },
+  {
+   "id": "ENG2008|ELA|L41+L42",
+   "course": "ENG2008",
+   "type": "ELA",
+   "slot": "L41+L42",
+   "sections": 1
+  },
+  {
+   "id": "ENG2008|ELA|L43+L44",
+   "course": "ENG2008",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 1
+  },
+  {
+   "id": "ENG2008|ELA|L47+L48",
+   "course": "ENG2008",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 1
+  },
+  {
+   "id": "ENG2008|ETH|TG1",
+   "course": "ENG2008",
+   "type": "ETH",
+   "slot": "TG1",
+   "sections": 3
+  },
+  {
+   "id": "ENG2008|ETH|TG2",
+   "course": "ENG2008",
+   "type": "ETH",
+   "slot": "TG2",
+   "sections": 4
+  },
+  {
+   "id": "ENG2013|TH|B2+TB2",
+   "course": "ENG2013",
+   "type": "TH",
+   "slot": "B2+TB2",
+   "sections": 1
+  },
+  {
+   "id": "ENG2014|TH|D1+TD1",
+   "course": "ENG2014",
+   "type": "TH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "FRL1001|TH|A1",
+   "course": "FRL1001",
+   "type": "TH",
+   "slot": "A1",
+   "sections": 1
+  },
+  {
+   "id": "FRL1001|TH|B1",
+   "course": "FRL1001",
+   "type": "TH",
+   "slot": "B1",
+   "sections": 2
+  },
+  {
+   "id": "FRL1001|TH|C1",
+   "course": "FRL1001",
+   "type": "TH",
+   "slot": "C1",
+   "sections": 1
+  },
+  {
+   "id": "FRL1001|TH|C2",
+   "course": "FRL1001",
+   "type": "TH",
+   "slot": "C2",
+   "sections": 1
+  },
+  {
+   "id": "FRL1001|TH|E2",
+   "course": "FRL1001",
+   "type": "TH",
+   "slot": "E2",
+   "sections": 1
+  },
+  {
+   "id": "FRL1001|TH|F1",
+   "course": "FRL1001",
+   "type": "TH",
+   "slot": "F1",
+   "sections": 1
+  },
+  {
+   "id": "FRL1001|TH|G1",
+   "course": "FRL1001",
+   "type": "TH",
+   "slot": "G1",
+   "sections": 1
+  },
+  {
+   "id": "FRL1004|TH|A1",
+   "course": "FRL1004",
+   "type": "TH",
+   "slot": "A1",
+   "sections": 1
+  },
+  {
+   "id": "FRL1004|TH|D1",
+   "course": "FRL1004",
+   "type": "TH",
+   "slot": "D1",
+   "sections": 1
+  },
+  {
+   "id": "FRL1004|TH|E1",
+   "course": "FRL1004",
+   "type": "TH",
+   "slot": "E1",
+   "sections": 1
+  },
+  {
+   "id": "FRL1004|TH|F2",
+   "course": "FRL1004",
+   "type": "TH",
+   "slot": "F2",
+   "sections": 1
+  },
+  {
+   "id": "FRL1005|TH|A2",
+   "course": "FRL1005",
+   "type": "TH",
+   "slot": "A2",
+   "sections": 2
+  },
+  {
+   "id": "FRL1005|TH|B2",
+   "course": "FRL1005",
+   "type": "TH",
+   "slot": "B2",
+   "sections": 1
+  },
+  {
+   "id": "FRL1005|TH|F2",
+   "course": "FRL1005",
+   "type": "TH",
+   "slot": "F2",
+   "sections": 1
+  },
+  {
+   "id": "FRL1005|TH|G1",
+   "course": "FRL1005",
+   "type": "TH",
+   "slot": "G1",
+   "sections": 1
+  },
+  {
+   "id": "FRL1005|TH|G2",
+   "course": "FRL1005",
+   "type": "TH",
+   "slot": "G2",
+   "sections": 1
+  },
+  {
+   "id": "FRL2004|TH|B2",
+   "course": "FRL2004",
+   "type": "TH",
+   "slot": "B2",
+   "sections": 1
+  },
+  {
+   "id": "FRL2004|TH|D2",
+   "course": "FRL2004",
+   "type": "TH",
+   "slot": "D2",
+   "sections": 1
+  },
+  {
+   "id": "FRL2005|TH|D2+TD2",
+   "course": "FRL2005",
+   "type": "TH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "HUM1104|TH|E1+SE1+TE1",
+   "course": "HUM1104",
+   "type": "TH",
+   "slot": "E1+SE1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "HUM1108|TH|E1+TE1",
+   "course": "HUM1108",
+   "type": "TH",
+   "slot": "E1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "HUM2002|TH|C2+TCC2",
+   "course": "HUM2002",
+   "type": "TH",
+   "slot": "C2+TCC2",
+   "sections": 1
+  },
+  {
+   "id": "HUM2002|TH|F1+TF1",
+   "course": "HUM2002",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "HUM2002|TH|F2+TF2",
+   "course": "HUM2002",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "HUM2014|TH|G2",
+   "course": "HUM2014",
+   "type": "TH",
+   "slot": "G2",
+   "sections": 1
+  },
+  {
+   "id": "HUM2111|TH|A1+TA1+TAA1",
+   "course": "HUM2111",
+   "type": "TH",
+   "slot": "A1+TA1+TAA1",
+   "sections": 1
+  },
+  {
+   "id": "HUM2117|TH|A2+TA2+TAA2",
+   "course": "HUM2117",
+   "type": "TH",
+   "slot": "A2+TA2+TAA2",
+   "sections": 1
+  },
+  {
+   "id": "HUM2118|TH|D2+TD2+TDD2",
+   "course": "HUM2118",
+   "type": "TH",
+   "slot": "D2+TD2+TDD2",
+   "sections": 1
+  },
+  {
+   "id": "HUM2119|TH|E2+SE2+TE2",
+   "course": "HUM2119",
+   "type": "TH",
+   "slot": "E2+SE2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "HUM2120|TH|F2+TF2+TFF2",
+   "course": "HUM2120",
+   "type": "TH",
+   "slot": "F2+TF2+TFF2",
+   "sections": 1
+  },
+  {
+   "id": "HUM3103|TH|B2+TB2+TBB2",
+   "course": "HUM3103",
+   "type": "TH",
+   "slot": "B2+TB2+TBB2",
+   "sections": 1
+  },
+  {
+   "id": "HUM3108|TH|D2+SD2+TD2",
+   "course": "HUM3108",
+   "type": "TH",
+   "slot": "D2+SD2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "HUM3109|ETH|B2+TB2",
+   "course": "HUM3109",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 1
+  },
+  {
+   "id": "HUM3110|TH|E2+SE2+TE2",
+   "course": "HUM3110",
+   "type": "TH",
+   "slot": "E2+SE2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "LAW2100|TH|G1",
+   "course": "LAW2100",
+   "type": "TH",
+   "slot": "G1",
+   "sections": 1
+  },
+  {
+   "id": "LAW2100|TH|G2",
+   "course": "LAW2100",
+   "type": "TH",
+   "slot": "G2",
+   "sections": 1
+  },
+  {
+   "id": "LAW2101|TH|A1+TA1+TAA1",
+   "course": "LAW2101",
+   "type": "TH",
+   "slot": "A1+TA1+TAA1",
+   "sections": 1
+  },
+  {
+   "id": "LAW2101|TH|A2+TA2+TAA2",
+   "course": "LAW2101",
+   "type": "TH",
+   "slot": "A2+TA2+TAA2",
+   "sections": 1
+  },
+  {
+   "id": "LAW2102|TH|D1+SD1+TD1",
+   "course": "LAW2102",
+   "type": "TH",
+   "slot": "D1+SD1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "LAW2102|TH|D2+SD2+TD2",
+   "course": "LAW2102",
+   "type": "TH",
+   "slot": "D2+SD2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "LAW2103|TH|E2+SE2+TE2",
+   "course": "LAW2103",
+   "type": "TH",
+   "slot": "E2+SE2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "LAW2103|TH|F1+TBB2+TF1",
+   "course": "LAW2103",
+   "type": "TH",
+   "slot": "F1+TBB2+TF1",
+   "sections": 1
+  },
+  {
+   "id": "LAW2104|ETH|C1+TC1",
+   "course": "LAW2104",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "LAW2110|TH|A2+TA2+TAA2",
+   "course": "LAW2110",
+   "type": "TH",
+   "slot": "A2+TA2+TAA2",
+   "sections": 1
+  },
+  {
+   "id": "LAW2111|TH|B2+TB2+TBB2",
+   "course": "LAW2111",
+   "type": "TH",
+   "slot": "B2+TB2+TBB2",
+   "sections": 1
+  },
+  {
+   "id": "LAW2112|TH|C2+SC2+TC2",
+   "course": "LAW2112",
+   "type": "TH",
+   "slot": "C2+SC2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "LAW2113|TH|F2+TBB1+TF2",
+   "course": "LAW2113",
+   "type": "TH",
+   "slot": "F2+TBB1+TF2",
+   "sections": 1
+  },
+  {
+   "id": "LAW2115|TH|E2+SE2+TE2",
+   "course": "LAW2115",
+   "type": "TH",
+   "slot": "E2+SE2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "LAW3101|TH|D2+SD2+TD2",
+   "course": "LAW3101",
+   "type": "TH",
+   "slot": "D2+SD2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "LAW3102|TH|E2+SE2+TE2",
+   "course": "LAW3102",
+   "type": "TH",
+   "slot": "E2+SE2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "LAW4101|TH|F2+TBB1+TF2",
+   "course": "LAW4101",
+   "type": "TH",
+   "slot": "F2+TBB1+TF2",
+   "sections": 1
+  },
+  {
+   "id": "LAW4102|TH|B2+TB2+TBB2",
+   "course": "LAW4102",
+   "type": "TH",
+   "slot": "B2+TB2+TBB2",
+   "sections": 1
+  },
+  {
+   "id": "LAW4103|TH|C2+SC2+TC2",
+   "course": "LAW4103",
+   "type": "TH",
+   "slot": "C2+SC2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "LAW4104|ELA|L3+L4+L11+L12",
+   "course": "LAW4104",
+   "type": "ELA",
+   "slot": "L3+L4+L11+L12",
+   "sections": 1
+  },
+  {
+   "id": "LAW4105|ELA|L5+L6+L15+L16",
+   "course": "LAW4105",
+   "type": "ELA",
+   "slot": "L5+L6+L15+L16",
+   "sections": 1
+  },
+  {
+   "id": "LAW4106|TH|D2+SD2+TD2",
+   "course": "LAW4106",
+   "type": "TH",
+   "slot": "D2+SD2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "LAW5107|TH|F1+TBB2+TF1",
+   "course": "LAW5107",
+   "type": "TH",
+   "slot": "F1+TBB2+TF1",
+   "sections": 1
+  },
+  {
+   "id": "LAW5109|TH|E1+SE1+TE1",
+   "course": "LAW5109",
+   "type": "TH",
+   "slot": "E1+SE1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "LAW5110|TH|A1+TA1+TAA1",
+   "course": "LAW5110",
+   "type": "TH",
+   "slot": "A1+TA1+TAA1",
+   "sections": 1
+  },
+  {
+   "id": "LAW5111|TH|B1+TB1+TBB1",
+   "course": "LAW5111",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 1
+  },
+  {
+   "id": "LAW5113|TH|C1+SC1+TC1",
+   "course": "LAW5113",
+   "type": "TH",
+   "slot": "C1+SC1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "LAW5114|TH|D1+SD1+TD1",
+   "course": "LAW5114",
+   "type": "TH",
+   "slot": "D1+SD1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "LAW5116|PJT|NILL",
+   "course": "LAW5116",
+   "type": "PJT",
+   "slot": "NILL",
+   "sections": 1
+  },
+  {
+   "id": "LIB1013|TH|G2+TG2",
+   "course": "LIB1013",
+   "type": "TH",
+   "slot": "G2+TG2",
+   "sections": 1
+  },
+  {
+   "id": "LIB1016|TH|A1+TA1+TAA1",
+   "course": "LIB1016",
+   "type": "TH",
+   "slot": "A1+TA1+TAA1",
+   "sections": 1
+  },
+  {
+   "id": "LIB1019|TH|F2+TF2",
+   "course": "LIB1019",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "LIB1020|TH|A1+TA1",
+   "course": "LIB1020",
+   "type": "TH",
+   "slot": "A1+TA1",
+   "sections": 2
+  },
+  {
+   "id": "LIB1020|TH|A2+TA2",
+   "course": "LIB1020",
+   "type": "TH",
+   "slot": "A2+TA2",
+   "sections": 1
+  },
+  {
+   "id": "LIB1020|TH|C1+TC1",
+   "course": "LIB1020",
+   "type": "TH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "LIB1020|TH|C2+TC2",
+   "course": "LIB1020",
+   "type": "TH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "LIB1024|TH|A2+TA2",
+   "course": "LIB1024",
+   "type": "TH",
+   "slot": "A2+TA2",
+   "sections": 1
+  },
+  {
+   "id": "LIB1024|TH|C1+TC1",
+   "course": "LIB1024",
+   "type": "TH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "LIB1024|TH|F1+TF1",
+   "course": "LIB1024",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "LIB1101|TH|A1+TA1",
+   "course": "LIB1101",
+   "type": "TH",
+   "slot": "A1+TA1",
+   "sections": 2
+  },
+  {
+   "id": "LIB1101|TH|G1+TG1",
+   "course": "LIB1101",
+   "type": "TH",
+   "slot": "G1+TG1",
+   "sections": 1
+  },
+  {
+   "id": "LIB1111|TH|C2+SC2+TC2",
+   "course": "LIB1111",
+   "type": "TH",
+   "slot": "C2+SC2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "LIB2007|TH|B1+TB1+TBB1",
+   "course": "LIB2007",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 1
+  },
+  {
+   "id": "LIB2010|TH|F1+TF1",
+   "course": "LIB2010",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "LIB2016|TH|A2+TA2",
+   "course": "LIB2016",
+   "type": "TH",
+   "slot": "A2+TA2",
+   "sections": 1
+  },
+  {
+   "id": "LIB2016|TH|C2+TC2",
+   "course": "LIB2016",
+   "type": "TH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "LIB2019|TH|G2+TG2",
+   "course": "LIB2019",
+   "type": "TH",
+   "slot": "G2+TG2",
+   "sections": 1
+  },
+  {
+   "id": "LIB2021|TH|B1+TB1+TBB1",
+   "course": "LIB2021",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 1
+  },
+  {
+   "id": "LIB2023|TH|A1+TA1+TAA1",
+   "course": "LIB2023",
+   "type": "TH",
+   "slot": "A1+TA1+TAA1",
+   "sections": 1
+  },
+  {
+   "id": "LIB2108|TH|A2+TA2+TAA2",
+   "course": "LIB2108",
+   "type": "TH",
+   "slot": "A2+TA2+TAA2",
+   "sections": 1
+  },
+  {
+   "id": "LIB2115|ELA|L21+L22",
+   "course": "LIB2115",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "LIB2115|ETH|G1+TG1",
+   "course": "LIB2115",
+   "type": "ETH",
+   "slot": "G1+TG1",
+   "sections": 1
+  },
+  {
+   "id": "LIB2123|TH|D1+SD1+TD1",
+   "course": "LIB2123",
+   "type": "TH",
+   "slot": "D1+SD1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "LIB2124|TH|E1+TE1+TEE1",
+   "course": "LIB2124",
+   "type": "TH",
+   "slot": "E1+TE1+TEE1",
+   "sections": 1
+  },
+  {
+   "id": "LIB2127|TH|B2+TB2",
+   "course": "LIB2127",
+   "type": "TH",
+   "slot": "B2+TB2",
+   "sections": 1
+  },
+  {
+   "id": "LIB3106|ETH|TF2",
+   "course": "LIB3106",
+   "type": "ETH",
+   "slot": "TF2",
+   "sections": 1
+  },
+  {
+   "id": "LIB3201|TH|C1+TC1+TCC1",
+   "course": "LIB3201",
+   "type": "TH",
+   "slot": "C1+TC1+TCC1",
+   "sections": 1
+  },
+  {
+   "id": "LIB4101|TH|B1+TB1+TBB1",
+   "course": "LIB4101",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 1
+  },
+  {
+   "id": "MAT1003|TH|B1+TB1+TBB1",
+   "course": "MAT1003",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 11
+  },
+  {
+   "id": "MAT1003|TH|B2+TB2+TBB2",
+   "course": "MAT1003",
+   "type": "TH",
+   "slot": "B2+TB2+TBB2",
+   "sections": 11
+  },
+  {
+   "id": "MAT1003|TH|C1+SC1+TC1",
+   "course": "MAT1003",
+   "type": "TH",
+   "slot": "C1+SC1+TC1",
+   "sections": 3
+  },
+  {
+   "id": "MAT1003|TH|C1+TC1+TCC1",
+   "course": "MAT1003",
+   "type": "TH",
+   "slot": "C1+TC1+TCC1",
+   "sections": 8
+  },
+  {
+   "id": "MAT1003|TH|C2+SC2+TC2",
+   "course": "MAT1003",
+   "type": "TH",
+   "slot": "C2+SC2+TC2",
+   "sections": 3
+  },
+  {
+   "id": "MAT1003|TH|C2+TC2+TCC2",
+   "course": "MAT1003",
+   "type": "TH",
+   "slot": "C2+TC2+TCC2",
+   "sections": 8
+  },
+  {
+   "id": "MAT1006|TH|A1+TA1",
+   "course": "MAT1006",
+   "type": "TH",
+   "slot": "A1+TA1",
+   "sections": 1
+  },
+  {
+   "id": "MAT1007|TH|A1+TA1+TAA1",
+   "course": "MAT1007",
+   "type": "TH",
+   "slot": "A1+TA1+TAA1",
+   "sections": 5
+  },
+  {
+   "id": "MAT1007|TH|A2+TA2+TAA2",
+   "course": "MAT1007",
+   "type": "TH",
+   "slot": "A2+TA2+TAA2",
+   "sections": 4
+  },
+  {
+   "id": "MAT1107|ELA|L17+L18",
+   "course": "MAT1107",
+   "type": "ELA",
+   "slot": "L17+L18",
+   "sections": 1
+  },
+  {
+   "id": "MAT1107|ETH|D1",
+   "course": "MAT1107",
+   "type": "ETH",
+   "slot": "D1",
+   "sections": 1
+  },
+  {
+   "id": "MAT1110|ETH|C2+TC2",
+   "course": "MAT1110",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "MAT2001|ELA|L33+L34",
+   "course": "MAT2001",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 1
+  },
+  {
+   "id": "MAT2001|ETH|D1",
+   "course": "MAT2001",
+   "type": "ETH",
+   "slot": "D1",
+   "sections": 1
+  },
+  {
+   "id": "MAT2003|ELA|L31+L32",
+   "course": "MAT2003",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 1
+  },
+  {
+   "id": "MAT2003|ELA|L33+L34",
+   "course": "MAT2003",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 1
+  },
+  {
+   "id": "MAT2003|ETH|C2+TCC2",
+   "course": "MAT2003",
+   "type": "ETH",
+   "slot": "C2+TCC2",
+   "sections": 1
+  },
+  {
+   "id": "MAT2003|ETH|F2+TF2",
+   "course": "MAT2003",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "MAT2005|TH|D2+TD2",
+   "course": "MAT2005",
+   "type": "TH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "MAT2005|TH|E1+TE1",
+   "course": "MAT2005",
+   "type": "TH",
+   "slot": "E1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "MAT2011|TH|E2+TE2",
+   "course": "MAT2011",
+   "type": "TH",
+   "slot": "E2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "MAT2101|TH|A2+TA2+TAA2",
+   "course": "MAT2101",
+   "type": "TH",
+   "slot": "A2+TA2+TAA2",
+   "sections": 1
+  },
+  {
+   "id": "MAT2103|ETH|B2+TB2",
+   "course": "MAT2103",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 1
+  },
+  {
+   "id": "MAT3004|TH|F1+TFF1",
+   "course": "MAT3004",
+   "type": "TH",
+   "slot": "F1+TFF1",
+   "sections": 1
+  },
+  {
+   "id": "MAT3103|TH|D2+TD2",
+   "course": "MAT3103",
+   "type": "TH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "MAT3106|TH|A2+TA2+TAA2",
+   "course": "MAT3106",
+   "type": "TH",
+   "slot": "A2+TA2+TAA2",
+   "sections": 1
+  },
+  {
+   "id": "MAT4105|TH|D1",
+   "course": "MAT4105",
+   "type": "TH",
+   "slot": "D1",
+   "sections": 1
+  },
+  {
+   "id": "MAT4201|ELA|L31+L32",
+   "course": "MAT4201",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 1
+  },
+  {
+   "id": "MAT4201|ETH|B1+TB1",
+   "course": "MAT4201",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 1
+  },
+  {
+   "id": "MAT4203|ELA|L39+L40",
+   "course": "MAT4203",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 1
+  },
+  {
+   "id": "MAT4203|ELA|L9+L10",
+   "course": "MAT4203",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "MAT4203|ETH|A1+TA1",
+   "course": "MAT4203",
+   "type": "ETH",
+   "slot": "A1+TA1",
+   "sections": 1
+  },
+  {
+   "id": "MAT4203|ETH|A2+TA2",
+   "course": "MAT4203",
+   "type": "ETH",
+   "slot": "A2+TA2",
+   "sections": 1
+  },
+  {
+   "id": "MEC2002|TH|A1+TA1+TAA1",
+   "course": "MEC2002",
+   "type": "TH",
+   "slot": "A1+TA1+TAA1",
+   "sections": 2
+  },
+  {
+   "id": "MEC2002|TH|A2+TA2+TAA2",
+   "course": "MEC2002",
+   "type": "TH",
+   "slot": "A2+TA2+TAA2",
+   "sections": 1
+  },
+  {
+   "id": "MEC2003|ELA|L35+L36",
+   "course": "MEC2003",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 1
+  },
+  {
+   "id": "MEC2003|ELA|L37+L38",
+   "course": "MEC2003",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 1
+  },
+  {
+   "id": "MEC2003|ELA|L51+L52",
+   "course": "MEC2003",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "MEC2003|ELA|L9+L10",
+   "course": "MEC2003",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "MEC2003|ETH|B1+TB1",
+   "course": "MEC2003",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 2
+  },
+  {
+   "id": "MEC2003|ETH|B2+TB2",
+   "course": "MEC2003",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 1
+  },
+  {
+   "id": "MEC2004|ELA|L15+L16",
+   "course": "MEC2004",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 1
+  },
+  {
+   "id": "MEC2004|ELA|L39+L40",
+   "course": "MEC2004",
+   "type": "ELA",
+   "slot": "L39+L40",
+   "sections": 1
+  },
+  {
+   "id": "MEC2004|ELA|L45+L46",
+   "course": "MEC2004",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 1
+  },
+  {
+   "id": "MEC2004|ELA|L47+L48",
+   "course": "MEC2004",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 1
+  },
+  {
+   "id": "MEC2004|ETH|C1+TC1",
+   "course": "MEC2004",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "MEC2004|ETH|C1+TCC1",
+   "course": "MEC2004",
+   "type": "ETH",
+   "slot": "C1+TCC1",
+   "sections": 1
+  },
+  {
+   "id": "MEC2004|ETH|C2+TC2",
+   "course": "MEC2004",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "MEC2010|LO|L3+L4+L11+L12",
+   "course": "MEC2010",
+   "type": "LO",
+   "slot": "L3+L4+L11+L12",
+   "sections": 1
+  },
+  {
+   "id": "MEC2010|LO|L31+L32+L45+L46",
+   "course": "MEC2010",
+   "type": "LO",
+   "slot": "L31+L32+L45+L46",
+   "sections": 1
+  },
+  {
+   "id": "MEC2017|TH|B2+TB2+TBB2",
+   "course": "MEC2017",
+   "type": "TH",
+   "slot": "B2+TB2+TBB2",
+   "sections": 1
+  },
+  {
+   "id": "MEC3005|ELA|L33+L34",
+   "course": "MEC3005",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 1
+  },
+  {
+   "id": "MEC3005|ETH|E1+TE1",
+   "course": "MEC3005",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "MEC3012|ETH|F2+TF2",
+   "course": "MEC3012",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "MEC3026|TH|B1+TB1+TBB1",
+   "course": "MEC3026",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 1
+  },
+  {
+   "id": "MEC3028|ELA|L27+L28",
+   "course": "MEC3028",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "MEC3028|ETH|D2+TD2",
+   "course": "MEC3028",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "MEC3029|ELA|L43+L44",
+   "course": "MEC3029",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 1
+  },
+  {
+   "id": "MEC3029|ELA|L9+L10",
+   "course": "MEC3029",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "MEC3029|ETH|A1+TA1",
+   "course": "MEC3029",
+   "type": "ETH",
+   "slot": "A1+TA1",
+   "sections": 1
+  },
+  {
+   "id": "MEC3029|ETH|A2+TA2",
+   "course": "MEC3029",
+   "type": "ETH",
+   "slot": "A2+TA2",
+   "sections": 1
+  },
+  {
+   "id": "MEC4003|ELA|L55+L56",
+   "course": "MEC4003",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 1
+  },
+  {
+   "id": "MEC4003|ETH|C1+TC1",
+   "course": "MEC4003",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "MGT1001|LO|L31+L32",
+   "course": "MGT1001",
+   "type": "LO",
+   "slot": "L31+L32",
+   "sections": 1
+  },
+  {
+   "id": "MGT1003|TH|F1+TF1",
+   "course": "MGT1003",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "MGT1024|TH|D1",
+   "course": "MGT1024",
+   "type": "TH",
+   "slot": "D1",
+   "sections": 2
+  },
+  {
+   "id": "MGT1024|TH|D2",
+   "course": "MGT1024",
+   "type": "TH",
+   "slot": "D2",
+   "sections": 2
+  },
+  {
+   "id": "MGT1034|TH|A1+TA1",
+   "course": "MGT1034",
+   "type": "TH",
+   "slot": "A1+TA1",
+   "sections": 1
+  },
+  {
+   "id": "MGT1034|TH|F2+TF2",
+   "course": "MGT1034",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "MGT1034|TH|F2+TFF2",
+   "course": "MGT1034",
+   "type": "TH",
+   "slot": "F2+TFF2",
+   "sections": 1
+  },
+  {
+   "id": "MGT1040|ETH|E1+TE1",
+   "course": "MGT1040",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 5
+  },
+  {
+   "id": "MGT1040|ETH|E2+TE2",
+   "course": "MGT1040",
+   "type": "ETH",
+   "slot": "E2+TE2",
+   "sections": 7
+  },
+  {
+   "id": "MGT1040|ETH|F1+TF1",
+   "course": "MGT1040",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 3
+  },
+  {
+   "id": "MGT1040|ETH|F1+TFF1",
+   "course": "MGT1040",
+   "type": "ETH",
+   "slot": "F1+TFF1",
+   "sections": 3
+  },
+  {
+   "id": "MGT1105|TH|G1+TG1",
+   "course": "MGT1105",
+   "type": "TH",
+   "slot": "G1+TG1",
+   "sections": 1
+  },
+  {
+   "id": "MGT1105|TH|G2+TG2",
+   "course": "MGT1105",
+   "type": "TH",
+   "slot": "G2+TG2",
+   "sections": 2
+  },
+  {
+   "id": "MGT1109|ETH|C1+TC1",
+   "course": "MGT1109",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 2
+  },
+  {
+   "id": "MGT1109|ETH|C2+TC2",
+   "course": "MGT1109",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "MGT1117|ETH|B1+TB1",
+   "course": "MGT1117",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 1
+  },
+  {
+   "id": "MGT1119|PJT|NILL",
+   "course": "MGT1119",
+   "type": "PJT",
+   "slot": "NILL",
+   "sections": 1
+  },
+  {
+   "id": "MGT1121|PJT|NILL",
+   "course": "MGT1121",
+   "type": "PJT",
+   "slot": "NILL",
+   "sections": 1
+  },
+  {
+   "id": "MGT1123|PJT|NILL",
+   "course": "MGT1123",
+   "type": "PJT",
+   "slot": "NILL",
+   "sections": 1
+  },
+  {
+   "id": "MGT2010|TH|F1",
+   "course": "MGT2010",
+   "type": "TH",
+   "slot": "F1",
+   "sections": 2
+  },
+  {
+   "id": "MGT2010|TH|F2",
+   "course": "MGT2010",
+   "type": "TH",
+   "slot": "F2",
+   "sections": 2
+  },
+  {
+   "id": "MGT2101|ETH|F1+TF1",
+   "course": "MGT2101",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "MGT2102|ETH|F1+TF1",
+   "course": "MGT2102",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 2
+  },
+  {
+   "id": "MGT2102|ETH|F2+TF2",
+   "course": "MGT2102",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "MGT2103|ETH|E1+TE1",
+   "course": "MGT2103",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 2
+  },
+  {
+   "id": "MGT2103|ETH|E2+TE2",
+   "course": "MGT2103",
+   "type": "ETH",
+   "slot": "E2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "MGT2103|ETH|F2+TF2",
+   "course": "MGT2103",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "MGT2109|TH|B2+TB2+TBB2",
+   "course": "MGT2109",
+   "type": "TH",
+   "slot": "B2+TB2+TBB2",
+   "sections": 1
+  },
+  {
+   "id": "MGT2112|TH|C2+TC2",
+   "course": "MGT2112",
+   "type": "TH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "MGT2112|TH|D1+TD1",
+   "course": "MGT2112",
+   "type": "TH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "MGT2122|ETH|D1+TD1",
+   "course": "MGT2122",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 2
+  },
+  {
+   "id": "MGT2122|ETH|D2+TD2",
+   "course": "MGT2122",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "MGT3001|ETH|A2",
+   "course": "MGT3001",
+   "type": "ETH",
+   "slot": "A2",
+   "sections": 1
+  },
+  {
+   "id": "MGT3001|ETH|D1",
+   "course": "MGT3001",
+   "type": "ETH",
+   "slot": "D1",
+   "sections": 1
+  },
+  {
+   "id": "MGT3001|ETH|D2",
+   "course": "MGT3001",
+   "type": "ETH",
+   "slot": "D2",
+   "sections": 1
+  },
+  {
+   "id": "MGT3101|TH|C2+TC2",
+   "course": "MGT3101",
+   "type": "TH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "MGT3101|TH|F1+TF1",
+   "course": "MGT3101",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "MGT3101|TH|F2+TF2",
+   "course": "MGT3101",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "MGT3120|ETH|G2",
+   "course": "MGT3120",
+   "type": "ETH",
+   "slot": "G2",
+   "sections": 1
+  },
+  {
+   "id": "MGT3121|TH|C1+TC1",
+   "course": "MGT3121",
+   "type": "TH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "MGT3130|TH|B1+TB1",
+   "course": "MGT3130",
+   "type": "TH",
+   "slot": "B1+TB1",
+   "sections": 1
+  },
+  {
+   "id": "MGT3202|ETH|C1+TC1",
+   "course": "MGT3202",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "MGT3202|ETH|D2+TD2",
+   "course": "MGT3202",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "MGT3222|TH|D2+SD2+TD2",
+   "course": "MGT3222",
+   "type": "TH",
+   "slot": "D2+SD2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "MGT4100|TH|C1+TC1",
+   "course": "MGT4100",
+   "type": "TH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "PHY2001|TH|A1+TA1+TAA1",
+   "course": "PHY2001",
+   "type": "TH",
+   "slot": "A1+TA1+TAA1",
+   "sections": 2
+  },
+  {
+   "id": "PHY2001|TH|A2+TA2+TAA2",
+   "course": "PHY2001",
+   "type": "TH",
+   "slot": "A2+TA2+TAA2",
+   "sections": 2
+  },
+  {
+   "id": "PHY2001|TH|B1+TB1+TBB1",
+   "course": "PHY2001",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 1
+  },
+  {
+   "id": "PHY2003|TH|B1+TB1",
+   "course": "PHY2003",
+   "type": "TH",
+   "slot": "B1+TB1",
+   "sections": 1
+  },
+  {
+   "id": "PHY2004|TH|C1+TC1",
+   "course": "PHY2004",
+   "type": "TH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "PHY2004|TH|G2+TG2",
+   "course": "PHY2004",
+   "type": "TH",
+   "slot": "G2+TG2",
+   "sections": 1
+  },
+  {
+   "id": "PHY2005|TH|A1+TA1",
+   "course": "PHY2005",
+   "type": "TH",
+   "slot": "A1+TA1",
+   "sections": 1
+  },
+  {
+   "id": "PHY2005|TH|B2+TB2",
+   "course": "PHY2005",
+   "type": "TH",
+   "slot": "B2+TB2",
+   "sections": 1
+  },
+  {
+   "id": "PHY2005|TH|C2+TC2",
+   "course": "PHY2005",
+   "type": "TH",
+   "slot": "C2+TC2",
+   "sections": 1
+  },
+  {
+   "id": "PHY2005|TH|D1+TDD1",
+   "course": "PHY2005",
+   "type": "TH",
+   "slot": "D1+TDD1",
+   "sections": 1
+  },
+  {
+   "id": "PHY2005|TH|G1+TG1",
+   "course": "PHY2005",
+   "type": "TH",
+   "slot": "G1+TG1",
+   "sections": 1
+  },
+  {
+   "id": "PHY2005|TH|G2+TG2",
+   "course": "PHY2005",
+   "type": "TH",
+   "slot": "G2+TG2",
+   "sections": 1
+  },
+  {
+   "id": "PHY2006|TH|A2+TA2",
+   "course": "PHY2006",
+   "type": "TH",
+   "slot": "A2+TA2",
+   "sections": 1
+  },
+  {
+   "id": "PHY2006|TH|G1+TG1",
+   "course": "PHY2006",
+   "type": "TH",
+   "slot": "G1+TG1",
+   "sections": 1
+  },
+  {
+   "id": "PHY2100|TH|A1+TA1+TAA1",
+   "course": "PHY2100",
+   "type": "TH",
+   "slot": "A1+TA1+TAA1",
+   "sections": 1
+  },
+  {
+   "id": "STS2003|TH|G1+TG1",
+   "course": "STS2003",
+   "type": "TH",
+   "slot": "G1+TG1",
+   "sections": 1
+  },
+  {
+   "id": "STS2006|TH|D1+TD1",
+   "course": "STS2006",
+   "type": "TH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "STS2006|TH|D2+TD2",
+   "course": "STS2006",
+   "type": "TH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "STS2006|TH|E1+TE1",
+   "course": "STS2006",
+   "type": "TH",
+   "slot": "E1+TE1",
+   "sections": 1
+  },
+  {
+   "id": "STS2006|TH|E2+TE2",
+   "course": "STS2006",
+   "type": "TH",
+   "slot": "E2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "STS2006|TH|F1+TF1",
+   "course": "STS2006",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "STS2006|TH|F2+TF2",
+   "course": "STS2006",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "STS2010|TH|A1+TA1",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "A1+TA1",
+   "sections": 3
+  },
+  {
+   "id": "STS2010|TH|A2+TA2",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "A2+TA2",
+   "sections": 3
+  },
+  {
+   "id": "STS2010|TH|B1+TB1",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "B1+TB1",
+   "sections": 4
+  },
+  {
+   "id": "STS2010|TH|B2+TB2",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "B2+TB2",
+   "sections": 3
+  },
+  {
+   "id": "STS2010|TH|C1+TC1",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "STS2010|TH|C1+TCC1",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "C1+TCC1",
+   "sections": 2
+  },
+  {
+   "id": "STS2010|TH|C2+TC2",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "C2+TC2",
+   "sections": 2
+  },
+  {
+   "id": "STS2010|TH|C2+TCC2",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "C2+TCC2",
+   "sections": 1
+  },
+  {
+   "id": "STS2010|TH|D1+TD1",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "D1+TD1",
+   "sections": 3
+  },
+  {
+   "id": "STS2010|TH|D1+TDD1",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "D1+TDD1",
+   "sections": 2
+  },
+  {
+   "id": "STS2010|TH|D2+TD2",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "D2+TD2",
+   "sections": 3
+  },
+  {
+   "id": "STS2010|TH|D2+TDD2",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "D2+TDD2",
+   "sections": 2
+  },
+  {
+   "id": "STS2010|TH|E1+TE1",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "E1+TE1",
+   "sections": 4
+  },
+  {
+   "id": "STS2010|TH|E2+TE2",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "E2+TE2",
+   "sections": 4
+  },
+  {
+   "id": "STS2010|TH|F1+TF1",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 6
+  },
+  {
+   "id": "STS2010|TH|F1+TFF1",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "F1+TFF1",
+   "sections": 2
+  },
+  {
+   "id": "STS2010|TH|F2+TF2",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 6
+  },
+  {
+   "id": "STS2010|TH|F2+TFF2",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "F2+TFF2",
+   "sections": 2
+  },
+  {
+   "id": "STS2010|TH|G1+TG1",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "G1+TG1",
+   "sections": 3
+  },
+  {
+   "id": "STS2010|TH|G2+TG2",
+   "course": "STS2010",
+   "type": "TH",
+   "slot": "G2+TG2",
+   "sections": 2
+  },
+  {
+   "id": "STS3006|TH|D2+TD2",
+   "course": "STS3006",
+   "type": "TH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "STS3006|TH|E2+TE2",
+   "course": "STS3006",
+   "type": "TH",
+   "slot": "E2+TE2",
+   "sections": 1
+  },
+  {
+   "id": "STS3007|TH|C1+TC1",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "C1+TC1",
+   "sections": 2
+  },
+  {
+   "id": "STS3007|TH|C1+TCC1",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "C1+TCC1",
+   "sections": 1
+  },
+  {
+   "id": "STS3007|TH|C2+TC2",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "C2+TC2",
+   "sections": 2
+  },
+  {
+   "id": "STS3007|TH|C2+TCC2",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "C2+TCC2",
+   "sections": 1
+  },
+  {
+   "id": "STS3007|TH|D1+TD1",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "STS3007|TH|D1+TDD1",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "D1+TDD1",
+   "sections": 1
+  },
+  {
+   "id": "STS3007|TH|D2+TDD2",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "D2+TDD2",
+   "sections": 2
+  },
+  {
+   "id": "STS3007|TH|E1+TE1",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "E1+TE1",
+   "sections": 2
+  },
+  {
+   "id": "STS3007|TH|E2+TE2",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "E2+TE2",
+   "sections": 2
+  },
+  {
+   "id": "STS3007|TH|F1+TF1",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "STS3007|TH|F1+TFF1",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "F1+TFF1",
+   "sections": 1
+  },
+  {
+   "id": "STS3007|TH|F2+TF2",
+   "course": "STS3007",
+   "type": "TH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "STS3008|TH|D2+TD2",
+   "course": "STS3008",
+   "type": "TH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "SWE1002|TH|B1+TB1+TBB1",
+   "course": "SWE1002",
+   "type": "TH",
+   "slot": "B1+TB1+TBB1",
+   "sections": 5
+  },
+  {
+   "id": "SWE1002|TH|B2+TB2+TBB2",
+   "course": "SWE1002",
+   "type": "TH",
+   "slot": "B2+TB2+TBB2",
+   "sections": 3
+  },
+  {
+   "id": "SWE2001|ELA|L1+L2",
+   "course": "SWE2001",
+   "type": "ELA",
+   "slot": "L1+L2",
+   "sections": 1
+  },
+  {
+   "id": "SWE2001|ELA|L15+L16",
+   "course": "SWE2001",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 1
+  },
+  {
+   "id": "SWE2001|ELA|L21+L22",
+   "course": "SWE2001",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "SWE2001|ELA|L25+L26",
+   "course": "SWE2001",
+   "type": "ELA",
+   "slot": "L25+L26",
+   "sections": 1
+  },
+  {
+   "id": "SWE2001|ELA|L29+L30",
+   "course": "SWE2001",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 1
+  },
+  {
+   "id": "SWE2001|ELA|L37+L38",
+   "course": "SWE2001",
+   "type": "ELA",
+   "slot": "L37+L38",
+   "sections": 1
+  },
+  {
+   "id": "SWE2001|ELA|L41+L42",
+   "course": "SWE2001",
+   "type": "ELA",
+   "slot": "L41+L42",
+   "sections": 1
+  },
+  {
+   "id": "SWE2001|ELA|L45+L46",
+   "course": "SWE2001",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 1
+  },
+  {
+   "id": "SWE2001|ELA|L51+L52",
+   "course": "SWE2001",
+   "type": "ELA",
+   "slot": "L51+L52",
+   "sections": 1
+  },
+  {
+   "id": "SWE2001|ELA|L53+L54",
+   "course": "SWE2001",
+   "type": "ELA",
+   "slot": "L53+L54",
+   "sections": 1
+  },
+  {
+   "id": "SWE2001|ELA|L55+L56",
+   "course": "SWE2001",
+   "type": "ELA",
+   "slot": "L55+L56",
+   "sections": 1
+  },
+  {
+   "id": "SWE2001|ETH|C1+TC1",
+   "course": "SWE2001",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 3
+  },
+  {
+   "id": "SWE2001|ETH|C1+TCC1",
+   "course": "SWE2001",
+   "type": "ETH",
+   "slot": "C1+TCC1",
+   "sections": 2
+  },
+  {
+   "id": "SWE2001|ETH|C2+TC2",
+   "course": "SWE2001",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 3
+  },
+  {
+   "id": "SWE2001|ETH|C2+TCC2",
+   "course": "SWE2001",
+   "type": "ETH",
+   "slot": "C2+TCC2",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ELA|L11+L12",
+   "course": "SWE2007",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ELA|L13+L14",
+   "course": "SWE2007",
+   "type": "ELA",
+   "slot": "L13+L14",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ELA|L19+L20",
+   "course": "SWE2007",
+   "type": "ELA",
+   "slot": "L19+L20",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ELA|L21+L22",
+   "course": "SWE2007",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ELA|L29+L30",
+   "course": "SWE2007",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ELA|L31+L32",
+   "course": "SWE2007",
+   "type": "ELA",
+   "slot": "L31+L32",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ELA|L33+L34",
+   "course": "SWE2007",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ELA|L35+L36",
+   "course": "SWE2007",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ELA|L45+L46",
+   "course": "SWE2007",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ELA|L49+L50",
+   "course": "SWE2007",
+   "type": "ELA",
+   "slot": "L49+L50",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ELA|L53+L54",
+   "course": "SWE2007",
+   "type": "ELA",
+   "slot": "L53+L54",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ETH|D1+TD1",
+   "course": "SWE2007",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 3
+  },
+  {
+   "id": "SWE2007|ETH|D2+TD2",
+   "course": "SWE2007",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "SWE2007|ETH|D2+TDD2",
+   "course": "SWE2007",
+   "type": "ETH",
+   "slot": "D2+TDD2",
+   "sections": 2
+  },
+  {
+   "id": "SWE2008|ELA|L15+L16",
+   "course": "SWE2008",
+   "type": "ELA",
+   "slot": "L15+L16",
+   "sections": 1
+  },
+  {
+   "id": "SWE2008|ELA|L19+L20",
+   "course": "SWE2008",
+   "type": "ELA",
+   "slot": "L19+L20",
+   "sections": 1
+  },
+  {
+   "id": "SWE2008|ELA|L29+L30",
+   "course": "SWE2008",
+   "type": "ELA",
+   "slot": "L29+L30",
+   "sections": 1
+  },
+  {
+   "id": "SWE2008|ELA|L47+L48",
+   "course": "SWE2008",
+   "type": "ELA",
+   "slot": "L47+L48",
+   "sections": 1
+  },
+  {
+   "id": "SWE2008|ELA|L49+L50",
+   "course": "SWE2008",
+   "type": "ELA",
+   "slot": "L49+L50",
+   "sections": 1
+  },
+  {
+   "id": "SWE2008|ETH|F1+TF1",
+   "course": "SWE2008",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "SWE2008|ETH|F2+TF2",
+   "course": "SWE2008",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 2
+  },
+  {
+   "id": "SWE2009|ELA|L23+L24",
+   "course": "SWE2009",
+   "type": "ELA",
+   "slot": "L23+L24",
+   "sections": 1
+  },
+  {
+   "id": "SWE2009|ELA|L35+L36",
+   "course": "SWE2009",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 1
+  },
+  {
+   "id": "SWE2009|ELA|L43+L44",
+   "course": "SWE2009",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 1
+  },
+  {
+   "id": "SWE2009|ELA|L5+L6",
+   "course": "SWE2009",
+   "type": "ELA",
+   "slot": "L5+L6",
+   "sections": 1
+  },
+  {
+   "id": "SWE2009|ELA|L7+L8",
+   "course": "SWE2009",
+   "type": "ELA",
+   "slot": "L7+L8",
+   "sections": 1
+  },
+  {
+   "id": "SWE2009|ELA|L9+L10",
+   "course": "SWE2009",
+   "type": "ELA",
+   "slot": "L9+L10",
+   "sections": 1
+  },
+  {
+   "id": "SWE2009|ETH|A1+TA1",
+   "course": "SWE2009",
+   "type": "ETH",
+   "slot": "A1+TA1",
+   "sections": 3
+  },
+  {
+   "id": "SWE2009|ETH|A2+TA2",
+   "course": "SWE2009",
+   "type": "ETH",
+   "slot": "A2+TA2",
+   "sections": 3
+  },
+  {
+   "id": "SWE3002|ETH|B1+TB1",
+   "course": "SWE3002",
+   "type": "ETH",
+   "slot": "B1+TB1",
+   "sections": 2
+  },
+  {
+   "id": "SWE3002|ETH|B2+TB2",
+   "course": "SWE3002",
+   "type": "ETH",
+   "slot": "B2+TB2",
+   "sections": 3
+  },
+  {
+   "id": "SWE3003|ELA|L1+L2",
+   "course": "SWE3003",
+   "type": "ELA",
+   "slot": "L1+L2",
+   "sections": 1
+  },
+  {
+   "id": "SWE3003|ELA|L21+L22",
+   "course": "SWE3003",
+   "type": "ELA",
+   "slot": "L21+L22",
+   "sections": 1
+  },
+  {
+   "id": "SWE3003|ELA|L45+L46",
+   "course": "SWE3003",
+   "type": "ELA",
+   "slot": "L45+L46",
+   "sections": 1
+  },
+  {
+   "id": "SWE3003|ETH|C1+TC1",
+   "course": "SWE3003",
+   "type": "ETH",
+   "slot": "C1+TC1",
+   "sections": 1
+  },
+  {
+   "id": "SWE3003|ETH|C2+TC2",
+   "course": "SWE3003",
+   "type": "ETH",
+   "slot": "C2+TC2",
+   "sections": 2
+  },
+  {
+   "id": "SWE3004|ELA|L11+L12",
+   "course": "SWE3004",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 1
+  },
+  {
+   "id": "SWE3004|ELA|L13+L14",
+   "course": "SWE3004",
+   "type": "ELA",
+   "slot": "L13+L14",
+   "sections": 1
+  },
+  {
+   "id": "SWE3004|ELA|L27+L28",
+   "course": "SWE3004",
+   "type": "ELA",
+   "slot": "L27+L28",
+   "sections": 1
+  },
+  {
+   "id": "SWE3004|ELA|L3+L4",
+   "course": "SWE3004",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 1
+  },
+  {
+   "id": "SWE3004|ELA|L33+L34",
+   "course": "SWE3004",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 1
+  },
+  {
+   "id": "SWE3004|ELA|L41+L42",
+   "course": "SWE3004",
+   "type": "ELA",
+   "slot": "L41+L42",
+   "sections": 1
+  },
+  {
+   "id": "SWE3004|ETH|E1+TE1",
+   "course": "SWE3004",
+   "type": "ETH",
+   "slot": "E1+TE1",
+   "sections": 3
+  },
+  {
+   "id": "SWE3004|ETH|E2+TE2",
+   "course": "SWE3004",
+   "type": "ETH",
+   "slot": "E2+TE2",
+   "sections": 3
+  },
+  {
+   "id": "SWE4004|ETH|D1+TD1",
+   "course": "SWE4004",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "SWE4004|ETH|D1+TDD1",
+   "course": "SWE4004",
+   "type": "ETH",
+   "slot": "D1+TDD1",
+   "sections": 1
+  },
+  {
+   "id": "SWE4004|ETH|D2+TD2",
+   "course": "SWE4004",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 2
+  },
+  {
+   "id": "SWE4004|ETH|D2+TDD2",
+   "course": "SWE4004",
+   "type": "ETH",
+   "slot": "D2+TDD2",
+   "sections": 1
+  },
+  {
+   "id": "SWE4007|ETH|D1+TD1",
+   "course": "SWE4007",
+   "type": "ETH",
+   "slot": "D1+TD1",
+   "sections": 1
+  },
+  {
+   "id": "SWE4007|ETH|D1+TDD1",
+   "course": "SWE4007",
+   "type": "ETH",
+   "slot": "D1+TDD1",
+   "sections": 1
+  },
+  {
+   "id": "SWE4007|ETH|D2+TD2",
+   "course": "SWE4007",
+   "type": "ETH",
+   "slot": "D2+TD2",
+   "sections": 1
+  },
+  {
+   "id": "SWE4007|ETH|D2+TDD2",
+   "course": "SWE4007",
+   "type": "ETH",
+   "slot": "D2+TDD2",
+   "sections": 1
+  },
+  {
+   "id": "SWE4008|ELA|L11+L12",
+   "course": "SWE4008",
+   "type": "ELA",
+   "slot": "L11+L12",
+   "sections": 1
+  },
+  {
+   "id": "SWE4008|ELA|L3+L4",
+   "course": "SWE4008",
+   "type": "ELA",
+   "slot": "L3+L4",
+   "sections": 1
+  },
+  {
+   "id": "SWE4008|ELA|L33+L34",
+   "course": "SWE4008",
+   "type": "ELA",
+   "slot": "L33+L34",
+   "sections": 1
+  },
+  {
+   "id": "SWE4008|ELA|L35+L36",
+   "course": "SWE4008",
+   "type": "ELA",
+   "slot": "L35+L36",
+   "sections": 1
+  },
+  {
+   "id": "SWE4008|ELA|L43+L44",
+   "course": "SWE4008",
+   "type": "ELA",
+   "slot": "L43+L44",
+   "sections": 1
+  },
+  {
+   "id": "SWE4008|ETH|F1+TF1",
+   "course": "SWE4008",
+   "type": "ETH",
+   "slot": "F1+TF1",
+   "sections": 1
+  },
+  {
+   "id": "SWE4008|ETH|F1+TFF1",
+   "course": "SWE4008",
+   "type": "ETH",
+   "slot": "F1+TFF1",
+   "sections": 1
+  },
+  {
+   "id": "SWE4008|ETH|F2+TF2",
+   "course": "SWE4008",
+   "type": "ETH",
+   "slot": "F2+TF2",
+   "sections": 1
+  },
+  {
+   "id": "SWE4008|ETH|F2+TFF2",
+   "course": "SWE4008",
+   "type": "ETH",
+   "slot": "F2+TFF2",
+   "sections": 1
+  },
+  {
+   "id": "SWE4010|TH|E1+SE1+TE1",
+   "course": "SWE4010",
+   "type": "TH",
+   "slot": "E1+SE1+TE1",
+   "sections": 1
+  }
+ ],
+ "report": {
+  "timetable": {
+   "days": [
+    "TUE",
+    "WED",
+    "THU",
+    "FRI",
+    "SAT"
+   ],
+   "slot_names": 110,
+   "lab_slots": 60,
+   "multi_cell_slots": 16,
+   "shared_cells": [
+    "TC1/G1",
+    "TC2/G2",
+    "E1/SC2",
+    "TF2/G2",
+    "E2/SC1",
+    "TD1/TG1",
+    "TAA1/ECS",
+    "TBB1/CLUB",
+    "TE2/SE1",
+    "TD2/TG2",
+    "TE1/SD2",
+    "E1/SE2",
+    "TF1/G1",
+    "E2/SD1",
+    "TAA2/ECS",
+    "TBB2/CLUB"
+   ],
+   "credit_patterns": 84
+  },
+  "courses": {
+   "rows": 1399,
+   "courses": 227,
+   "offerings": 802,
+   "rows_repeating_an_offering": 597,
+   "by_type": {
+    "PJT": 7,
+    "TH": 412,
+    "LO": 4,
+    "ETH": 520,
+    "ELA": 456
+   },
+   "slot_combinations": 88,
+   "courses_without_credits": 7
+  },
+  "unparsed_rows": [],
+  "unknown_slot_names": [],
+  "title_variants": {},
+  "credit_notes": [
+   "CAP4001: project course, credits cannot be derived",
+   "ECS2003: project course, credits cannot be derived",
+   "ECS3001: project course, credits cannot be derived",
+   "LAW5116: project course, credits cannot be derived",
+   "MGT1119: project course, credits cannot be derived",
+   "MGT1121: project course, credits cannot be derived",
+   "MGT1123: project course, credits cannot be derived"
+  ],
+  "not_in_source": [
+   "credits (derived)",
+   "baskets (synthetic)",
+   "capacities (synthetic)",
+   "section and faculty identifiers",
+   "theory-lab pairing"
+  ]
+ }
+}
