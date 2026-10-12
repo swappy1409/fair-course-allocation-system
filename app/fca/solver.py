@@ -83,6 +83,7 @@ class Result:
     nodes: int = 0
     credits: int = 0
     problems: list[Problem] = field(default_factory=list)
+    scored: list[tuple[str, float, tuple[str, ...]]] = field(default_factory=list)  # (bucket, score, combo)
 
     def summary(self) -> str:
         if self.problems:
@@ -239,10 +240,11 @@ def solve(cat: Catalogue, courses: list[str], pins: list[Pin] = (), limits: Limi
         for (bucket, _), _c in scored:
             result.buckets[bucket] = result.buckets.get(bucket, 0) + 1
         kept: dict[str, int] = {}
-        for (bucket, _), c in scored:
+        for (bucket, _score), c in scored:
             if kept.get(bucket, 0) < limits.per_bucket:
                 kept[bucket] = kept.get(bucket, 0) + 1
                 result.combos.append(c)
+                result.scored.append((bucket, _score, c))
     else:
         result.buckets = {"all": len(found)} if found else {}
         result.combos = sorted(found)[: limits.sample_size]

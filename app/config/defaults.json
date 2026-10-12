@@ -1,0 +1,19 @@
+{
+  "_about": "Default settings, copied into the database on first start. Admins change the live values in the admin area; nothing here is hard-coded in the solver or allocation.",
+  "credit_min": 16,
+  "credit_max": 27,
+  "seats_per_section": 60,
+  "beta_seats_per_section": 2,
+  "use_beta_seats": true,
+  "capacity_source": "synthetic",
+  "tiers": ["All students"],
+  "window_open": "2026-10-19T09:00:00+05:30",
+  "window_close": "2026-10-25T23:59:00+05:30",
+  "window_override": "",
+  "allocation_seed": "vitap-scope-beta-2026",
+  "earlier_miss_weight": 1.0,
+  "add_drop_changes_per_student": 1,
+  "survey_baseline_minutes": 25.7,
+  "privacy_contact": "swapnil.23bcb7031@vitapstudent.ac.in",
+  "invite_code_valid_days": 21
+}
