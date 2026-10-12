@@ -105,7 +105,7 @@ def preview(settings: dict, student: dict, electives, pin_texts, ranking=(), nev
             "relaxations": [{"kind": r.kind, "message": r.message, "unlocks": r.unlocks,
                              "unlocks_text": r.unlock_text(),
                              "electives": clean_electives(student, r.courses),
-                             "pins": [pin_text(p) for p in r.pins]} for r in d.relaxations],
+                             "pins": [pin_text(p) for p in r.pins]} for r in d.relaxations[:6]],
         }
         return out
     out["archetypes"] = [{"id": x["id"], "label": x["label"], "description": x["description"],
