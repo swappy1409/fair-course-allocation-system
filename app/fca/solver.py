@@ -26,13 +26,12 @@ because that one result is machine-dependent.
 Symmetry removal: Annexure II lists parallel sections as repeated rows. They are merged
 into one offering with a section count, so identical timetables are generated once.
 
-Kept results: `keep` is a function combo -> (bucket, score); the best `per_bucket`
-combinations of each bucket (lowest score, ties by offering ids) are kept. Without it
-everything goes in one bucket, up to `sample_size`, in generation order.
+Kept results: `keep` is a function (catalogue, combo) -> (bucket, score); the best
+`per_bucket` combinations of each bucket (lowest score, ties by offering ids) are kept
+and `buckets` counts what was found per bucket. Without it everything is one bucket.
 """
 from __future__ import annotations
 
-import heapq
 import time
 from dataclasses import dataclass, field
 
@@ -80,6 +79,7 @@ class Result:
     count: int = 0
     exact: bool = True
     timed_out: bool = False
+    gave_up: bool = False                       # first_only search hit its budget undecided
     nodes: int = 0
     credits: int = 0
     problems: list[Problem] = field(default_factory=list)
@@ -99,6 +99,10 @@ class Result:
 
 
 class _Budget(Exception):
+    pass
+
+
+class _Found(Exception):
     pass
 
 
@@ -149,7 +153,7 @@ def build_domains(cat: Catalogue, courses: list[str], pins: list[Pin], limits: L
 
 
 def solve(cat: Catalogue, courses: list[str], pins: list[Pin] = (), limits: Limits = Limits(),
-          keep=None, blocked: frozenset[str] = frozenset()) -> Result:
+          keep=None, blocked: frozenset[str] = frozenset(), first_only: bool = False) -> Result:
     variables, domains, credits, problems = build_domains(cat, courses, list(pins), limits, blocked)
     result = Result(variables, [], {}, credits=credits, problems=problems)
     if problems or not variables:
@@ -180,43 +184,23 @@ def solve(cat: Catalogue, courses: list[str], pins: list[Pin] = (), limits: Limi
             out.append(d2)
         return out
 
-    class Collector:
-        def __init__(self):
-            self.count, self.buckets, self.heaps, self.seq = 0, {}, {}, 0
-
-        def add(self, chosen):
-            combo = tuple(chosen[k] for k in unorder)
-            self.count += 1
-            bucket, score = keep(cat, combo) if keep else ("all", self.count)
-            self.buckets[bucket] = self.buckets.get(bucket, 0) + 1
-            heap = self.heaps.setdefault(bucket, [])
-            item = (-score, _Rev(combo), combo)  # max-heap on (score, ids): worst on top
-            if len(heap) < cap:
-                heapq.heappush(heap, item)
-            elif item > heap[0]:
-                heapq.heapreplace(heap, item)
-
-        def combos(self):
-            out = []
-            for bucket in sorted(self.heaps):
-                out += [c for _, _, c in sorted(self.heaps[bucket], key=lambda it: (-it[0], it[2]))]
-            return out
-
-    def exact(i, doms, chosen, col):
+    def exact(i, doms, chosen, out):
         if i == len(order):
-            col.add(chosen)
+            out.append(tuple(chosen[k] for k in unorder))
+            if first_only:
+                raise _Found
             return
         for mask, oid in doms[0]:
             tick(limits.node_budget)
             rest = narrowed(doms[1:], mask)
             if rest is not None:
                 chosen.append(oid)
-                exact(i + 1, rest, chosen, col)
+                exact(i + 1, rest, chosen, out)
                 chosen.pop()
 
-    def spread(i, doms, chosen, col, quota):
+    def spread(i, doms, chosen, out, quota):
         if i == len(order):
-            col.add(chosen)
+            out.append(tuple(chosen[k] for k in unorder))
             return 1
         found, dom = 0, doms[0]
         for k, (mask, oid) in enumerate(dom):
@@ -227,42 +211,54 @@ def solve(cat: Catalogue, courses: list[str], pins: list[Pin] = (), limits: Limi
             rest = narrowed(doms[1:], mask)
             if rest is not None:
                 chosen.append(oid)
-                found += spread(i + 1, rest, chosen, col, share)
+                found += spread(i + 1, rest, chosen, out, share)
                 chosen.pop()
         return found
 
-    cap = limits.per_bucket if keep else limits.sample_size
-    col = Collector()
+    found: list[tuple[str, ...]] = []
     try:
-        exact(0, search_domains, [], col)
+        exact(0, search_domains, [], found)
+        result.count = len(found)
+    except _Found:
+        result.count, result.exact = 1, False
     except _Budget:
         result.exact = False
-        lower_bound, col = col.count, Collector()
-        if not result.timed_out:
+        lower_bound, found = len(found), []
+        if not result.timed_out and not first_only:
             try:
-                spread(0, search_domains, [], col, limits.sample_size)
+                spread(0, search_domains, [], found, limits.sample_size)
             except _Budget:
                 pass
-        col.count = max(col.count, lower_bound)
-    result.count, result.buckets, result.combos, result.nodes = col.count, col.buckets, col.combos(), state["nodes"]
+        result.count = max(len(found), lower_bound)
+        result.gave_up = first_only
+
+    # Bucket and order what was found. Scoring happens after the search so an abandoned
+    # exact pass costs nothing.
+    if keep:
+        scored = sorted((keep(cat, c), c) for c in found)
+        for (bucket, _), _c in scored:
+            result.buckets[bucket] = result.buckets.get(bucket, 0) + 1
+        kept: dict[str, int] = {}
+        for (bucket, _), c in scored:
+            if kept.get(bucket, 0) < limits.per_bucket:
+                kept[bucket] = kept.get(bucket, 0) + 1
+                result.combos.append(c)
+    else:
+        result.buckets = {"all": len(found)} if found else {}
+        result.combos = sorted(found)[: limits.sample_size]
+    result.nodes = state["nodes"]
     return result
 
 
-class _Rev:
-    """Reverses string order inside the max-heap so ties keep the smallest offering ids."""
-    __slots__ = ("s",)
-
-    def __init__(self, s):
-        self.s = s
-
-    def __lt__(self, other):
-        return self.s > other.s
-
-    def __gt__(self, other):
-        return self.s < other.s
-
-    def __eq__(self, other):
-        return self.s == other.s
+def feasible(cat: Catalogue, courses, pins=(), blocked: frozenset[str] = frozenset(),
+             node_budget: int = 60_000) -> bool | None:
+    """Does any conflict-free combination exist, ignoring credit limits? None if the
+    search gave up before finding one or proving there is none."""
+    res = solve(cat, courses, pins, Limits(credit_min=0, credit_max=10 ** 6, node_budget=node_budget),
+                blocked=blocked, first_only=True)
+    if res.problems:
+        return False
+    return None if res.gave_up else res.count > 0
 
 
 def main(argv=None):

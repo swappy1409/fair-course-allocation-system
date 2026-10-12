@@ -1,0 +1,69 @@
+{
+  "_about": "Timetable patterns students rank. A combination gets the FIRST archetype whose every condition holds, so order matters and the last one must have no conditions. Conditions are {feature: {min, max}} (both optional, inclusive). Features are documented in app/fca/archetypes.py.",
+  "morning_ends_at": "13:30",
+  "late_finish_after": "18:00",
+  "early_start_at": "08:00",
+  "archetypes": [
+    {
+      "id": "all_morning",
+      "label": "All morning",
+      "description": "Nearly everything before lunch; afternoons free.",
+      "when": {"morning_share": {"min": 0.9}}
+    },
+    {
+      "id": "all_evening",
+      "label": "All evening",
+      "description": "Nearly everything after lunch; mornings free.",
+      "when": {"morning_share": {"max": 0.1}}
+    },
+    {
+      "id": "compact_3_day",
+      "label": "Compact 3-day week",
+      "description": "All classes packed into three days or fewer.",
+      "when": {"days_used": {"max": 3}}
+    },
+    {
+      "id": "morning_classes_evening_labs",
+      "label": "Morning classes, evening labs",
+      "description": "Theory mostly before lunch, labs mostly after.",
+      "when": {"lab_minutes": {"min": 1}, "theory_morning_share": {"min": 0.75}, "lab_morning_share": {"max": 0.25}}
+    },
+    {
+      "id": "evening_classes_morning_labs",
+      "label": "Evening classes, morning labs",
+      "description": "Labs mostly before lunch, theory mostly after.",
+      "when": {"lab_minutes": {"min": 1}, "theory_morning_share": {"max": 0.25}, "lab_morning_share": {"min": 0.75}}
+    },
+    {
+      "id": "four_day_week",
+      "label": "Four-day week",
+      "description": "One weekday completely free.",
+      "when": {"days_used": {"max": 4}}
+    },
+    {
+      "id": "morning_heavy",
+      "label": "Morning-heavy",
+      "description": "About two thirds or more of class time before lunch.",
+      "when": {"morning_share": {"min": 0.65}}
+    },
+    {
+      "id": "evening_heavy",
+      "label": "Evening-heavy",
+      "description": "About two thirds or more of class time after lunch.",
+      "when": {"morning_share": {"max": 0.35}}
+    },
+    {
+      "id": "mixed",
+      "label": "Mixed",
+      "description": "Spread across mornings and evenings on every day.",
+      "when": {}
+    }
+  ],
+  "secondary_score": {
+    "_about": "Orders combinations inside one archetype. Lower is better. score = sum(weight * feature).",
+    "gap_hours": 1.0,
+    "days_used": 2.0,
+    "early_starts": 0.5,
+    "late_finishes": 0.5
+  }
+}
