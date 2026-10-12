@@ -44,20 +44,29 @@ def window_state(settings: dict, when: datetime | None = None) -> str:
     return "open" if when <= datetime.fromisoformat(settings["window_close"]) else "closed"
 
 
-# ponytail: in-memory attempt counter, fine for one process; move to the database if this
-# ever runs with more than one worker.
+# Only FAILED sign-ins are counted, per network address: a whole class on the college Wi-Fi
+# shares one address, so counting successes would lock real testers out.
+# ponytail: in-memory counter, fine for one process; move to the database if this ever runs
+# with more than one worker.
 _attempts: dict[str, deque] = defaultdict(deque)
-RATE_LIMIT, RATE_WINDOW_S = 8, 600
+RATE_LIMIT, RATE_WINDOW_S = 20, 600
 
 
-def rate_limit(request: Request, bucket: str) -> None:
+def _attempt_queue(request: Request, bucket: str) -> deque:
     ip = request.headers.get("cf-connecting-ip") or (request.client.host if request.client else "?")
     q, t = _attempts[f"{bucket}:{ip}"], time.monotonic()
     while q and t - q[0] > RATE_WINDOW_S:
         q.popleft()
-    if len(q) >= RATE_LIMIT:
-        raise HTTPException(429, "Too many attempts. Wait ten minutes and try again.")
-    q.append(t)
+    return q
+
+
+def rate_limit(request: Request, bucket: str) -> None:
+    if len(_attempt_queue(request, bucket)) >= RATE_LIMIT:
+        raise HTTPException(429, "Too many failed attempts from this network. Wait ten minutes and try again.")
+
+
+def note_failure(request: Request, bucket: str) -> None:
+    _attempt_queue(request, bucket).append(time.monotonic())
 
 
 def start_session(con, response: Response, request: Request, student_id=None, is_admin=False) -> str:
@@ -174,10 +183,12 @@ def login(body: LoginBody, request: Request, response: Response):
         if not s:
             db.log_event(con, None, "error", {"where": "login", "reason": "invalid code"})
             con.commit()
+            note_failure(request, "login")
             raise HTTPException(401, "That invite code is not recognised. Check it and try again.")
         if s["code_expires"] and s["code_expires"] < db.now():
             db.log_event(con, s["id"], "error", {"where": "login", "reason": "expired code"})
             con.commit()
+            note_failure(request, "login")
             raise HTTPException(401, "That invite code has expired. Ask the organiser for a new one.")
         csrf = start_session(con, response, request, student_id=s["id"])
         db.log_event(con, s["id"], "signed_in")
@@ -191,6 +202,7 @@ def admin_login(body: AdminLoginBody, request: Request, response: Response):
     if len(secret) < 12:
         raise HTTPException(503, "Admin access is disabled: set ADMIN_SECRET (12+ characters) in the environment.")
     if not hmac.compare_digest(body.secret.encode(), secret.encode()):
+        note_failure(request, "admin")
         raise HTTPException(401, "Wrong admin secret.")
     with db.connect() as con:
         csrf = start_session(con, response, request, is_admin=True)

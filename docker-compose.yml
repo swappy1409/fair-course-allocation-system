@@ -1,0 +1,23 @@
+# Start:            docker compose up -d --build
+# Public HTTPS URL: docker compose --profile tunnel up -d   then   docker compose logs tunnel
+# Seed testers:     docker compose run --rm app python -m fca.seed
+# Reset the beta:   docker compose run --rm app python -m fca.seed --reset
+services:
+  app:
+    build: .
+    env_file: .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./var:/data          # database, invite codes and daily backups live here, outside the image
+    restart: unless-stopped
+
+  # Free Cloudflare quick tunnel: no account, no payment. Gives a public https://<words>.trycloudflare.com
+  # address that forwards to the app. The address changes every time this service restarts.
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate --url http://app:8000
+    depends_on:
+      - app
+    profiles: ["tunnel"]
+    restart: unless-stopped

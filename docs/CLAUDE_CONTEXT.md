@@ -1,6 +1,6 @@
 # CLAUDE_CONTEXT — Fair Course Allocation System
 
-**Last Updated:** 2026-10-13
+**Last Updated:** 2026-10-13 (end of overnight build)
 
 ## What this is
 
@@ -11,77 +11,88 @@ The old single-file demo in `prototype/` is left untouched.
 
 ## Current Phase
 
-**M1 and M2 done and committed on branch `beta-build`. Stopped for the M2 demo; next is M3.**
-
-Milestones: M1 data+clash (done), M2 combinations+pins (done, demo shown), M3 archetypes
-+diagnostics, M4 student screens (then demo), M5 allocation+simulation+admin,
-M6 instrumentation+deploy+docs. Commit after each; tests must pass before moving on.
+**All six milestones (M1–M6) built and committed on branch `beta-build`** (not merged to
+`master`, not pushed). User asked to run to the end overnight and review in the morning;
+`docs/MORNING_CHECKLIST.md` lists what they must check and the decisions made for them.
 
 ## Confirmed decisions (user answered "defaults" on 2026-10-13)
 
 - Stack: FastAPI + SQLite WAL + React/Vite served by the same app; one Docker container.
 - Hosting: user's laptop + free Cloudflare quick tunnel. No accounts, no spending.
 - Repeated Annexure II rows = parallel sections; capacity = sections x seats per section.
-- Seats per section 60 (synthetic) with a "beta scale" override of 2 so slots fill.
-- Credits derived (Annexure I credit table + 1 per two lab blocks), labelled "derived".
-  The 7 PJT courses have no credits and are left out of the synthetic curriculum.
-- Baskets, curriculum (required/backlog) and 15 testers are synthetic and labelled so.
-- One ETH + one ELA of the same course, any non-clashing pair, counted as one course.
-- 16-27 credits inclusive. Tiers configurable, default one tier.
-- Window: open 2026-10-19 09:00 IST, close 2026-10-25 23:59 IST, one round on 10-26,
-  then add/drop capped at one change per student.
-- Wording rule: never "lottery", "random draw" or "luck" anywhere (UI, docs, identifiers);
-  say "equal-priority order" / "fair tie-break".
-- Privacy contact: user's VIT-AP student email.
+- Seats per section 60 (synthetic) with a beta-scale override of 2 (on by default).
+- Credits derived (Annexure I credit table + 1 per two lab blocks). 7 PJT courses have no
+  credits and cannot be selected.
+- Baskets, curriculum, testers and capacity are synthetic and labelled so.
+- One ETH + one ELA of the same course, any non-clashing pair.
+- Course set is fixed before solving (user confirmed "keep that in mind").
+- 16–27 credits inclusive. Tiers configurable, default one tier.
+- Window 2026-10-19 09:00 to 2026-10-25 23:59 IST, one round, add/drop capped at 1.
+- **Wording rule:** never "lottery", "random draw" or "luck" anywhere (UI, docs,
+  identifiers); say "equal-priority order" / "fair tie-break". Enforced by
+  `test_api::test_wording_rule_holds_across_the_code_base` (scans app/fca, app/config,
+  app/web/src, docs/*.md except this file, README).
 
-## Architecture so far
+## Architecture (details in docs/ARCHITECTURE.md)
 
 | Path | Purpose |
 |---|---|
-| `app/fca/timetable.py` | slot -> cells; 5-minute bit mask per slot combination; `clash` = mask AND |
-| `app/fca/importer.py` | pdfplumber parse of both Annexures -> `app/data/catalogue.json` + parse report |
-| `app/fca/catalogue.py` | `Catalogue.load()`: courses, offerings (id `CODE|TYPE|SLOT`), `options(code, type)` |
-| `app/fca/solver.py` | `solve(cat, courses, pins, limits, keep, blocked)` -> `Result`; CLI `python -m fca.solver` |
-| `tests/helpers.py` | `tiny_catalogue()` for exact-answer tests |
-
-Solver notes: course set is fixed (required + backlog + chosen electives); credits are a
-property of the set. Exact pass within `node_budget` (120k), else a quota-spread pass
-keeping `sample_size` (4000) and reporting "at least M". `keep(cat, combo) -> (bucket,
-score)` hook is where M3 archetypes plug in (top `per_bucket` per bucket). `blocked` is
-for full offerings during allocation (plan: re-solve live with full offerings blocked).
+| `app/fca/timetable.py` | slot -> cells; 5-minute bit mask; clash = mask AND |
+| `app/fca/importer.py` | Annexure PDFs -> `app/data/catalogue.json` + parse report |
+| `app/fca/catalogue.py` | `Catalogue.load()`; offering id `CODE|TYPE|SLOT` |
+| `app/fca/solver.py` | `solve(...)` exact pass (120k nodes) then spread pass (4000); `feasible()` |
+| `app/fca/archetypes.py` + `app/config/archetypes.json` | features, 9 archetypes, secondary score |
+| `app/fca/diagnostics.py` | minimal conflict + ranked single-change relaxations |
+| `app/fca/allocation.py` | order (tier, earlier-miss, SHA-256 seed), `Allocator.place`, fairness report, `simulate` |
+| `app/fca/service.py` | solver LRU cache, student ranked order, preview JSON |
+| `app/fca/server.py` | FastAPI app, invite-code sign-in, sessions, CSRF, student routes |
+| `app/fca/admin.py` | admin routes, allocate, result, add/drop, exports, backups (imported at end of server.py) |
+| `app/fca/db.py`, `seed.py` | SQLite schema/settings; tester import, invite codes, `--reset` |
+| `app/web/src/` | React: `Student.jsx`, `Admin.jsx`, `Timetable.jsx`, `api.js` |
+| `var/` (ignored) | `fca.db`, `invite_codes.csv`, `backups/`; overridden by `FCA_DATA_DIR` |
 
 ## Commands
 
-- Tests: `.venv/Scripts/python -m pytest -q` (44 pass, ~7 s)
-- Re-import: `cd app && ../.venv/Scripts/python -m fca.importer <A1.pdf> <A2.pdf> data/catalogue.json`
-- Solver demo: `cd app && ../.venv/Scripts/python -m fca.solver CSE1013 FRL1001 HUM3109 LAW2104 MAT1003 MGT1040 --pin FRL1001:TH:G1`
+- Tests: `.venv/Scripts/python -m pytest -q` (103 pass, ~16 s)
+- E2E: `.venv/Scripts/python -m pytest tests/e2e -q` (needs `npm run build` in `app/web`)
+- Load: `.venv/Scripts/python tests/load/load_test.py 20` (rewrites docs/LOAD_TEST.md)
+- Run: `docker compose up -d --build`; tunnel: `docker compose --profile tunnel up -d`
+- Seed / reset: `docker compose run --rm app python -m fca.seed [--reset]`
+- Local dev server: `cd app && ../.venv/Scripts/python -m uvicorn fca.server:app --port 8000`
+
+## Last Completed
+
+- M1 import + clash model; M2 solver + pins; M3 archetypes + diagnostics.
+- Backend API, allocation, admin, add/drop, exports, backups.
+- Student and admin screens; Playwright smoke test with screenshots in `docs/screenshots/`.
+- Dockerfile, compose with optional tunnel, `.env.example`; container built and verified;
+  tunnel verified once (HTTPS sign-in worked) then stopped.
+- Docs: ARCHITECTURE, API, TEST_CASES, ADMIN_RUNBOOK, TESTER_GUIDE, KNOWN_LIMITS,
+  LOAD_TEST, FUTURE_WORK, README, MORNING_CHECKLIST.
+
+## Currently Working On
+
+Nothing. Waiting for the user's morning review.
 
 ## Next Task
 
-M3: `app/config/archetypes.json` (features: morning/evening share, days used, gaps, lab
-placement, free days), classifier + secondary score wired through `keep`, infeasibility
-diagnostics (small conflicting set, ranked relaxations with unlock counts), tests, commit.
+Act on the user's feedback from `docs/MORNING_CHECKLIST.md`: likely real tester list,
+tier policy, UI fixes after they try it on a phone, then merge `beta-build`.
 
 ## Known Issues
 
-- Lab-heavy requests (4-5 lab courses) always exceed the node budget, so their count is a
-  lower bound, not the true total.
-- Git warns about LF->CRLF on Windows; harmless.
+- Lab-heavy requests report "at least M"; pattern counts are then counts of the sample.
+- Touch drag-reorder untested on a real phone (arrow buttons are tested).
+- Admin PDF upload not exercised through the browser.
+- Local `.env` holds a generated `ADMIN_SECRET` (not committed). Value is not recorded here.
+- User's email is the privacy contact in `app/config/defaults.json` and TESTER_GUIDE.md.
+- Heredocs with many quotes fail in the Bash tool on this machine; use Write/Edit or a
+  python script instead.
 
 ## Tests Last Run
 
-2026-10-13: 44 passed.
+2026-10-13: 103 unit/property/API passed; 1 e2e passed; load test 20 users, 0 failures.
 
 ## Blockers
 
-None. Waiting for the user's reaction to the M2 demo.
-
-### Input PDFs (`inputs/`, untracked) — parsed with pdfplumber in `.venv`, clean tables
-
-- Annexure I (1 page): Tue–Sat grid, 10 theory blocks and 12 lab blocks per day with
-  different clock times, so clashes must use real time intervals. Shared theory cells
-  (e.g. `TC1/G1`, `E1/SC2`, `TAA1/ECS`). Labs L1–L60. Credit-to-slot-pattern table.
-- Annexure II (26 pages): 1399 rows, 227 courses, 802 distinct (course, type, slot)
-  offerings; 597 rows repeat an offering (probably parallel sections). Types ETH 520,
-  ELA 456, TH 412, PJT 7 (slot `NILL`), LO 4. 0 unparsed rows.
-- Not in the PDFs: credits, baskets, capacities, section/faculty, theory–lab pairing.
+None.
