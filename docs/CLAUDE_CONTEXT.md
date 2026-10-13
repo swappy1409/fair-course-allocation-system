@@ -1,6 +1,6 @@
 # CLAUDE_CONTEXT — Fair Course Allocation System
 
-**Last Updated:** 2026-10-13 (end of overnight build)
+**Last Updated:** 2026-10-13 (branch pushed)
 
 ## What this is
 
@@ -11,8 +11,9 @@ The old single-file demo in `prototype/` is left untouched.
 
 ## Current Phase
 
-**All six milestones (M1–M6) built and committed on branch `beta-build`** (not merged to
-`master`, not pushed). User asked to run to the end overnight and review in the morning;
+**All six milestones (M1–M6) built and committed on branch `beta-build`, pushed to
+`origin/beta-build` on 2026-10-13** (not merged to `master`; `master` still has only the
+old prototype). User asked to run to the end overnight and review in the morning;
 `docs/MORNING_CHECKLIST.md` lists what they must check and the decisions made for them.
 
 ## Confirmed decisions (user answered "defaults" on 2026-10-13)
@@ -72,12 +73,18 @@ The old single-file demo in `prototype/` is left untouched.
 
 ## Currently Working On
 
-Nothing. Waiting for the user's morning review.
+Nothing. Waiting for the user's review. No pull request opened yet.
+
+## Recently Changed Files
+
+Whole tree under `app/`, `tests/`, `docs/`, plus `Dockerfile`, `docker-compose.yml`,
+`.env.example`, `README.md` (all in the seven `beta-build` commits).
 
 ## Next Task
 
 Act on the user's feedback from `docs/MORNING_CHECKLIST.md`: likely real tester list,
-tier policy, UI fixes after they try it on a phone, then merge `beta-build`.
+tier policy, UI fixes after they try it on a phone, then merge `beta-build` into `master`
+(open a PR or merge directly, whichever the user asks for).
 
 ## Known Issues
 
